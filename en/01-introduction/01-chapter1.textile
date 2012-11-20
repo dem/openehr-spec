@@ -1,0 +1,37 @@
+h1. Introduction
+
+h2. Purpose
+
+This document provides an overview of the openEHR architecture in terms of a model overview, key global semantics, deployment and integration architectures, relationship to published standards, and finally the approach to building Implementation Technology Specifications (ITSs). Semantics specific to each information, archetype and service model are described in the relevant model.
+
+The intended audience includes:
+
+* Standards bodies producing health informatics standards
+* Software development groups using openEHR
+* Academic groups using openEHR
+* The open source healthcare community
+
+This document is the key technical overview of openEHR, and should be read before all other techni-
+cal documents.
+
+h2. Status
+
+This document is under development, and is published as a proposal for input to standards processes
+and implementation works.
+
+This document is available at 
+ "http://svn.openehr.org/specification/TAGS/Release-1.0/publishing/architecture/overview.pdf":http://svn.openehr.org/specification/TAGS/Release-1.0/publishing/architecture/overview.pdf 
+
+The latest version of this document can be found at "http://svn.openehr.org/specification/TRUNK/publishing/architecture/overview.pdf":http://svn.openehr.org/specification/TRUNK/publishing/architecture/overview.pdf 
+
+New versions are announced on "openehr-announce@openehr.org":mailto:openehr-announce@openehr.org
+
+Blue text indicates sections under active development.
+
+h2. Peer review
+
+Areas where more analysis or explanation is required are indicated with “to be continued” paragraphs like the following:
+
+To Be Continued: more work required
+
+Reviewers are encouraged to comment on and/or advise on these paragraphs as well as the main content. Please send requests for information to "info@openEHR.org":mailto:info@openEHR.org. Feedback should preferably be provided on the mailing list "openehr-technical@openehr.org":mailto:openehr-technical@openehr.org, or by private email.
