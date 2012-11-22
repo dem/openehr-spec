@@ -11,8 +11,7 @@ The intended audience includes:
 * Academic groups using openEHR
 * The open source healthcare community
 
-This document is the key technical overview of openEHR, and should be read before all other techni-
-cal documents.
+This document is the key technical overview of openEHR, and should be read before all other technical documents.
 
 h2. Status
 
@@ -30,7 +29,7 @@ Blue text indicates sections under active development.
 
 h2. Peer review
 
-Areas where more analysis or explanation is required are indicated with “to be continued” paragraphs like the following:
+Areas where more analysis or explanation is required are indicated with "to be continued" paragraphs like the following:
 
 To Be Continued: more work required
 
