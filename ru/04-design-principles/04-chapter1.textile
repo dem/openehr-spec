@@ -1,62 +1,59 @@
-h1. Design Principles
+h1. Принципы проектирования
+ 
+Подход OpenEHR к моделированию информации, сервисов и знаний предметной области базируется на ряде принципов, описанных ниже. Применение этих принципов ведет к разделению моделей в архитектуре openEHR, и, следовательно, к высокоуровневым компонентам. В свою очередь это способствует улучшению эксплуатационной надежности, масштабируемости и гибкости развертывания.
+ 
+h2. Онтологическая классификация
+ 
+Основное различие систем моделей - онтологическое, т.е. находящееся на уровне абстрактного описания реального мира. Все модели передают семантическое содержание, но не вся семантика одинакова, даже если она относится к той же категории. Например, в терминологии SNOMED-CT [1] описываются виды бактериальной инфекции, виды локализации и виды симптомов. Информационная модель описывает логический тип Quantity. Модель содержания определяет модель информации, собираемой врачом в дородовой осмотре. Такие виды «информации» качественно отличаются, и должны разрабатываться и поддерживаться отдельно в рамках общей эко-системы моделей. На рисунке 4 отмечены данные различия, и указаны какие части встроены непосредственно в программное обеспечение и базы данных.
+ 
+Рисунок 4 Онтологический ландшафт
+ 
+Рисунок 4 показывает, базовое различие между "онтологией информации", то есть информационными моделями содержания, и "онтологией реальности", то есть описанием и классификацией реальных явлений. Их необходимо разделить на две категории, потому что авторы, работающие на ними, представления и цели совершенно разные. По большому счету в медицинской информатике это разделение уже существует в связи с развитием терминологий и классификаций.
+ 
+Второй шаг в разделении онтологии с информационной стороны проходит между моделями информации и моделями понятий предметной области. Первая категория содержит семантику, инвариантную на всей предметной области (например, базовые типы данных, такие как кодированный термин (coded terms), структуры данных, такие как списки (lists), идентификаторы (identifiers)), а вторая содержит меняющиеся описания из предметной области - описания информационных структур, таких как "результат микробиологического исследования" вместо описания реальных явлений в реальном мире (например, заражение микробом). Такое разделение обычно не очень глубоко понимается, и исторически сложилось, что большая часть семантики предметной области жестко кодируется в программном обеспечении и в базах данных, что приводит к трудно поддерживаемым системам.
+ 
+Четко разделяя на три категории - информационные модели, модели предметной области и терминологии, архитектура openEHR точно описывает и фиксирует область действия, задает понятный интерфейс для каждой из категорий. В следствие этого уменьшается зависимость друг от друга, что ведет лучшей управляемости и адаптируемости систем.
 
-The openEHR approach to modelling information, services and domain knowledge is based on a number of design principles, described below. The application of these principles lead to a separation of the models of the openEHR architecture, and consequently, a high level of componentisation. This leads to better maintainability, extensibility, and flexible deployment.
-
-h2. Ontological Separation
-
-The most basic kind of distinction in any system of models is ontological, i.e. in the levels of abstraction of description of the real world. All models carry some kind of semantic content, but not all semantics are the same, or even of the same category. For example, some part of the SNOMED-CT[1] terminology describes types of bacterial infection, sites in the body, and symptoms. An information model might specify a logical type Quantity. A content model might define the model of information collected in an ante-natal examination by a physician. These types of “information” are qualitatively different, and need to be developed and maintained separately within the overall model eco-system. FIGURE 4 illustrates these distinctions, and indicates what parts are built directly into software and databases.
-
-FIGURE 4 The Ontological Landscape
-
-This figure shows a primary separation between “ontologies of information” i.e. models of information content, and “ontologies of reality” i.e. descriptions and classifications of real phenomena. These two categories have to be separated because the type of authors, the representation and the purposes are completely different. In health informatics, this separation already exists by and large, due to the development of terminologies and classifications.
-
-A secondary ontological separation within the information side is shown between information models and domain content models. The former category corresponds to semantics that are invariant across the domain (e.g. basic data types like coded terms, data structures like lists, identifiers), while the latter corresponds to variable domain level content descriptions - descriptions of information structures such as “microbiology result” rather than descriptions of actual phenomena in the real world (such as
-infection by a microbe). This separation is not generally well understood, and historically, a great deal of domain-level semantics has been hard-wired into the software and databases, leading to relatively unmaintainable systems.
-
-By clearly separating the three categories - information models, domain content models, and terminologies - the openEHR architecture enables each to have a well-defined, limited scope and clear interfaces. This limits the dependence of each on the other, leading to more maintainable and adaptable systems.
-
-h3. Two-level Modelling and Archetypes
-
-One of the key paradigms on which openEHR is based is known as “two-level” modelling, described in [2]. Under the two-level approach, a stable reference information model constitutes the first level of modelling, while formal definitions of clinical content in the form of archetypes and templates constitute the second. Only the first level (the Reference Model) is implemented in software, significantly reducing the dependency of deployed systems and data on variable content definitions. The only other parts of the model universe implemented in software are highly stable languages/models of representation (shown at the bottom of FIGURE 4). As a consequence, systems have the possibility of being far smaller and more maintainable than single-level systems. They are also inherently self-adapting, since they are built to consume archetypes and templates as they are developed into the future.
-
-FIGURE 5 Archetype Meta-architecture
-
-In this figure, “data” as we know it in normal information systems (shown on the bottom left) conforms in the usual way to an object model (top left). Systems engineered in the “classic” way (i.e. all domain semantics are encoded somewhere in the software or database) are limited to this kind of architecture. With the use of two-level modelling, runtime data now conform semantically to archetypes as well as concretely to the reference model. All archetypes are expressed in a generic Archetype Definition Language (ADL).
-
-The details of how archetypes and templates work in openEHR are described in Archetypes and Templates on page 50.
-
-h3. Consequences for Software Engineering
-
-Two-level modelling significantly changes the dynamics of the systems development process. In the usual IT-intensive process, requirements are gathered via ad hoc discussions with users (typically via the well-known “use case” methodology), designs and models built from the requirements, implementation proceeds from the design, followed by testing and deployment and ultimately the maintenance part of the lifecycle. This is usually characterised by ongoing high costs of implementation change and/or a widening gap between system capabilities and the requirements at any moment. The approach also suffers from the fact that ad hoc conversations with systems users nearly always fails to reveal underlying content and workflow. Under the two-level paradigm, the core part of the system is based on the reference and archetype models (includes generic logic for storage, querying, caching etc.), both of which are extremely stable, while domain semantics are mostly delegated to domain specialists who work building archetypes (reusable), templates (local use) and terminology (general use). The process is illustrated in FIGURE 6. Within this process, IT developers concentrate on generic components such as data management and interoperability, while groups of domain experts work outside the software development process, generating definitions that are used by systems at
-runtime.
-
-FIGURE 6 Two-level Software Engineering
-
-Clearly applications cannot always be totally generic (although many data capture and viewing applications are); decision support, administrative, scheduling and many other applications still requirecustom engineering. However, all such applications can now rely on an archetype- and template-driven computing platform. A key result of this approach is that archetypes now constitute a technology-independent, single-source expression of domain semantics, used to drive database schemas, software logic, GUI screen definitions, message schemas and all other technical expressions of the semantics.
-
-h2. Separation of Responsibilities
-
-A second key design paradigm used in openEHR is that of separation of responsibilities within the computing environment. Complex domains are only tractable if the functionality is first partitioned into broad areas of interest, i.e. into a “system of systems” [6]. This principle has been understood in computer science for a long time under the rubrics “low coupling”, “encapsulation” and “componentisation”, and has resulted in highly successful frameworks and standards, including the OMG’s CORBA specifications and the explosion of object-oriented languages, libraries and frameworks. Each area of functionality forms a focal point for a set of models formally describing that area, which, taken together usually correspond to a distinct information system or service.
-
-FIGURE 7 illustrates a notional health information environment containing numerous services, each denoted by a bubble. Typical connections are indicated by lines, and bubbles closer to the centre correspond to services closer to the core needs of clinical care delivery, such as the EHR, terminology, demographics/identification and medical reference data. Of the services shown on the diagram, openEHR currently provides specifications only for the more central ones, including EHR and Demographics.
-
-Since there are standards available for some aspects of many services, such as terminology, image formats, messages, EHR Extracts, service-based interoperation, and numerous standards for details such as date/time formats and string encoding, the openEHR specifications often act as a mechanism to integrate existing standards.
-
-h2. Separation of Viewpoints
-
-The third computing paradigm used in openEHR is a natural consequence of the separation of responsibilities, namely the separation of viewpoints. When responsibilities are divided up among distinct components, it becomes necessary to define a) the information that each processes, and b) how they will communicate. These two aspects of models constitute the two central “viewpoints” of the ISO RM/ODP model [4], marked in bold in the following:
-
-Enterprise: concerned with the business activities, i.e. purpose, scope and policies of the specified system.
-
-Information: concerned with the semantics of information that needs to be stored and processed in the system.
-
-Computational: concerned with the description of the system as a set of objects that interact at interfaces - enabling system distribution.
-
-Engineering: concerned with the mechanisms supporting system distribution.
-
-Technological: concerned with the detail of the components from which the distributed system is constructed.
-
-The openEHR specifications accordingly include an information viewpoint - the openEHR Reference Model - and a computational viewpoint - the openEHR Service Model. The Engineering viewpoint corresponds to the Implementation Technology Specification (ITS) models of openEHR (see Implementation Technology Specifications on page 77), while the Technological viewpoint corresponds to the technologies and components used in an actual deployment. An important aspect of the division into viewpoints is that there is generally not a 1:1 relationship between model specifications in each viewpoint. For example, there might be a concept of “health mandate” (a CEN ENV13940 Continuity
-of Care concept) in the enterprise viewpoint. In the information viewpoint, this might have become a model containing many classes. In the computational viewpoint, the information structures defined in the information viewpoint are likely to recur in multiple services, and there may or may not be a “health mandate” service. The granularity of services defined in the computational viewpoint corresponds most strongly to divisions of function in an enterprise or region, while the granularity of components in the information view points corresponds to the granularity of mental concepts in the problem space, the latter almost always being more fine-grained.
-
-FIGURE 7
+h3. Двухуровневое моделирование и архетипы
+ 
+В основании openEHR лежит парадигма "двухуровневого" моделирования [2]. Под двухуровневым подходом понимается стабильная базовая модель информации на первом уровне моделирования и формализованные определения клинического содержания в виде архетипов и шаблонов на втором. В программном обеспечении реализуется только первый уровень (базовая модель, Reference Model), что существенно снижает зависимость развернутых систем и данных от изменений в определениях содержания. Другая и единственна часть из всей совокупности моделей, которая реализуется в программном обеспечении, высокостабильные языки/модели уровня представления (показано в нижней части рис 4). В следствие этого системы могут быть намного меньше по размеру и легче управляться по сравнению с одноуровневыми системами. Двухуровневые системы, построенные с использованием архетипов и шаблонов, по сути являются адаптивными системами, так как смогут использовать архетипы и шаблоны, которые появятся в будущем.
+ 
+Рисунок 5 Мета-архитектура архетипов
+ 
+На этом рисунке, «данные» в типовой информационной системе (внизу слева) соответствует объектной модели (вверху слева).  Системы, разработанные по классическому пути когда вся семантика предметной области закодирована в ПО или базах данных, оказываются ограничеными. С использованием двухуровневого моделирования, выполнения данные во время выполнения семантически соответствуют как архетипам, так и базовой модели. Все архетипы описываются на обобщенном языке описания архетипов (Archetype Definition Language, ADL).
+ 
+Подробности работы архетипов и шаблонов в openEHR описаны на стр. 50.
+ 
+h3. Влияние на разработку программного обеспечения
+ 
+Двухуровневая система моделирования существенно изменяет динамику процесса разработки системы. Обычно в процессах, насыщенных IT-составляющей, требования собираются на лету в процессе обсуждения с пользователями (как правило с помощью методологии "use case"), архитектура и модели, создаются на основе требований, реализация опирается на архитектуру, затем следует тестирование, развертывание и, наконец, поддержка. Такой жизненный цикл, характеризуется высокой стоимостью внедрения изменений и увеличением разрыва между возможностями системы и требованиями на определенный момент времени. Подход также плох тем, что в беседах с пользователями системы почти всегда не удается выявить основную суть содержания и процессов. В соответствии с двухуровневой парадигмой, основная часть системы основана на базовой модели и модели архетипов (которые включают в себя общую логику для хранения данных, запросов, кэширование и др.), которые в вышей степени стабильны, в то время как семантика полностью делегирована специалистам в предметной области, которые работают над созданием архетипов (с возможностью повторного использования), шаблоны (для локального применения) и терминологией (для общего использования). Процесс показан на рисунке 6. В рамках процесса ИТ-разработчики сосредотачиваются на общих компонентах, таких как управление данными и их переносимостью, в то время как группы экспертов в предметной области работают вне процесса разработки программного обеспечения над создания описаний, которые используются в системах во время исполнения
+ 
+Рисунок 6 Двухуровневая разработка ПО
+ 
+Понятно, что приложения не всегда являются полностью общими (хотя многие приложения для сбора и просмотра данных являются таковыми), приложения поддержки принятия решений, финансово-хозяйственные, планирования и многие другие по-прежнему требуют специальной разработки. Однако все эти приложения могут положиться на вычислительную платформу на основе архетипов и шаблонов. Основным результатом такого подхода является то, что архетипы составляют технологически независимый единый источник семантики предметной области, и используется для управления схемами баз данных, логикой программного обеспечения, пользовательскими экранами (GUI), схемами сообщений и другими способами выражения семантики.
+ 
+h2. Разделение ответственности
+ 
+Разделение ответственности в вычислительной среде - вторая ключевая парадигма, используемая в openEHR. Нормальное управление сложными предметными областями существует там, где функциональность разбивается на области, представляющие интерес, в виде «системы систем» [6]. Подобный принцип в области компьютерных наук существует в течение длительного времени под названиями "слабое связывание", "инкапсуляция" и "разбиение на компоненты", которые привели созданию эффективных фреймворков и стандартов, например спецификациям OMG CORBA, и бурному развитию объектно-ориентированных языков, библиотек и фреймворков. Каждая функциональная область формирует множество моделей, формальной описывающих эту область, совокупность которых отличает одну информационную систему или сервис от других.
+ 
+Рисунок 7 иллюстрирует условную медицинскую информационную среду с множеством сервисов, каждый из которых обозначен овальным элементом на блок-схеме. Связи обозначаются линиями, и элементы, расположенные ближе к центру, соответствуют сервисам близким к базовым потребностям при оказании медицинской помощи, таким, как ЭМК, терминологии, демографические, идентификационные и медицинские данные. Из сервисов, показанных на рисунке,в openEHR в настоящее время есть спецификации только для центральных, например ЭМК и демографический сервис.
+ 
+Существуют стандарты, закрывающие некоторые аспекты множества сервисов, такие как, терминологии, форматы изображений, сообщений, экспорт из ЭМК (EHR Extracts), сервисное взаимодействие, а также многочисленные стандарты для таких деталей как, форматы даты / времени и кодировки строк, поэтому спецификация openEHR является механизмом интеграции существующих стандартов.
+ 
+h2. Разделение точек зрения
+ 
+Разделение точек зрения, естественно следующее из разделения ответственности, является третьей вычислительной парадигмой в openEHR. Когда ответственность разделена между различными компонентами, необходимо определить a) обрабатываемую информацию, и b) взаимодействие. Данные два аспекта модели представляют собой две центральных "точки зрения" модели ISO RM/ODP [4] (выделены жирным шрифтом):
+ 
+Организационная: связанна с бизнес деятельностью, то есть цели, границы и принципы работы системы.
+ 
+Информационная: связана с семантикой информацию, которая должна храниться и обрабатываться в системе.
+ 
+Вычислительная: связана с описание системы в виде набора объектов, которые взаимодействуют через интерфейсы - что делает систему распределенной.
+ 
+Инженерная: связана с механизмами поддержки распределенной системы.
+ 
+Технологическая: связана с детализацией компонент, из которых строится распределенная система.
+ 
+Спецификация OpenEHR включает информационную точку зрения - базовая модель openEHR (RM) и вычислительную точку зрения - сервисная модель openEHR (SM). Инженерная точка зрения описывается в технологии реализации спецификации (ITS) openEHR (см. технологии реализации спецификации на стр. 77), и технологической точки зрения соответствует множество технологий и компонентов, используемых в фактическом развертывании. Важным аспектом разделения на несколько точек зрения является то, что нет соотношения 1:1 между спецификациями моделей для каждой точки зрения. Например, с организационной точки зрения может быть понятие "мандат здоровья" (CEN ENV13940 Continuity of Care concept). С информационной точки зрения, понятие становится моделью, содержащей множество классов. С вычислительной точки зрения, структуры, определенные в информационной точки зрения, потребуются в множестве сервисов, и как может быть, так может и не быть сервиса "мандат здоровья". Детализация сервисов на уровне вычислительной точки зрения, наиболее точно соответствуют разделению на функции в организации, в то время как степень детализации компонент в информационных точках зрения соответствует смысловым понятиям в предметной области.
+ 
+Рисунок 7
