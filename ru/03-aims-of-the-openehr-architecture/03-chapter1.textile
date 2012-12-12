@@ -6,87 +6,82 @@ h2. Общие сведения
 
 Так как архитектура в значительной степени обобщена, частично вследствие того, что работа строится на архетипах, она подходит под требований задач, лежащих вне области “клинической ЭМК”. Например, подобная базовая архитектура может быть использована для ветеринарии или даже для обслуживания общественной инфраструктуры или охраны памятников архитектуры. Это возможно, так как в базовой модели реализуется идея о “сервисных и обслуживающих действиях, связанных с объектом ухода”; в свою очередь архетипы и шаблоны моделируют определенный виды действий и понятий, связанные с объектом. Несмотря на то, что одно из требований в openEHR, ЭМК должна быть “пациенто-ориентированной, длительного использования, распределенной”, это не строгое ограничение, ее можно использовать локально для одной специализации, например, как ЭМК для службы инструментальной диагностики. Требования к различным “электронным медицинским записям” можно классифицировать по двум измерениям: масштаб и вид объекта, как показано на РИСУНКЕ 2.
 
-FIGURE 2 Структура требований, которые закрывает openEHR
+Рисунок 2 Структура требований, которые закрывает openEHR
 
 На этом рисунке каждый элемент блок-схемы представляет набор требований. Все элементы блок-схемы, кроме одного, включают в себя внутренние элементы и обобщают их требования. В левом верхнем углу находятся требования для объектов любого вида в месте оказания помощи. Сверху вниз добавляются требования для живых объектов, а затем для человека. Требования в большом элементе слева соответствуют “локальным медицинским записям о здоровье пациентов”, например, ЭМК в службе инструментальной диагностики, госпитальная ЭМК и т.д. Слева на право в элементы включаются дополнительные требования в соответствии с масштабом, переходя к объекту в целом (в результате получаем пациенто-ориентированную эмк длительного использования), а затем переходим к популяции или когорте объектов, что соответствует масштабу целой отрасли или масштабу научных исследований. С точки зрения здравоохранения важность требований растет к нижней строчке диаграммы.
 
-Going down the diagram, requirements corresponding to increasing specificity of subject of care (from “any” to “human”) are mostly implemented in openEHR by the use of archetypes. Going across the diagram, the requirements corresponding to increasing scope of record content (from episodic to population) are mainly expressed in different deployments, generally going from standalone to a shared interoperable form. One of the key aspirations for EHRs today is the “integrated care record” sought by many health authorities today1, which provides an informational framework for integrated shared care.
+Сверху вниз на диаграмме повышается специализация требований (от "любого объекта" к "человеку"), большинство из которых поддерживается openEHR с помощью архетипов. Слева на право повышается масштаб содержимого записей (от эпизодов до популяции), который проявляется в различии установки и настройки программного обеспечения, начиная от отдельно стоящей ЭМК до распределенной интероперабельной формы. Сегодня ключевое направление развития ЭМК - "распределенные электронные медицинские карты", оно поддерживается множеством государственных систем здравоохранения [1], которые обеспечивают информационную инфраструктуру для интегрированной распределенной медицинской помощи.
 
-As a result of the approach taken by openEHR, components and applications built to satisfy the requirements of an integrated shared care record can also be deployed as (for example) an episodic radiology record system.
+В результате подхода, выбранного openEHR, компоненты и приложения созданные для интегрированной распределенной медицинской карты могут использоваться для развертывания системы локальной эмк инструментальной диагностики.
 
-Some of the key requirements developed during the evolution of GEHR to openEHR are listed in the following sections, corresponding to some of the major requirements groups of FIGURE 2.
+Некоторые ключевые требования, сформированные с развитием от GEHR до openEHR, перечислены в следующих секциях. Они соответствуют крупным группам требований на Рисунке 2.
 
-*Generic Care Record Requirements*
+h3. Требования для обобщенной записи
 
-The openEHR requirements include the following, corresponding to a basic, generic record of care:
+Требования в openEHR для базовой или обобщенной записи:
 
-* prioritisation of the patient / carer interaction (over e.g. research use of the record);
-* suitable for all care settings (primary, acute etc.);
-* medico-legal faithfulness, traceability, audit-trailing;
-* technology & data format independence;
-* highly maintainable and flexible software;
-* support for clinical data structures: lists, tables, time-series, including point and interval events.
+* приоритезация взаимодействия между пациентом и лицом, оказывающим помощь (с помощью исследования использования записей);
+* должна подходить для всех видов помощи (первичная, скорая и т.д.);
+* юридическая значимость, возможность отслеживания и контроля;
+* независимость от технологий и форматов данных;
+* легко поддерживаемое и гибкое программное обеспечение;
+* поддержка клинических структур данных: списки, таблицы, временные данные, включающие точечные события и интервалы.
 
-*Health Care Record (EPR)*
+h3. Электронная история болезни (ЭИБ)
 
-The following requirements addressed in openEHR correspond to a local health record, or EPR:
+Требования в openEHR для локальной электронной истории болезни, или ЭИБ
 
-* support for all aspects of pathology data, including normal ranges, alternative systems of units etc.;
-* supports all natural languages, as well as translations between languages in the record;
-* integrates with any/multiple terminologies.
+* поддержка всех аспектов медицинских данных, включая границы норм, альтернативные системы единиц измерений и др.;
+* поддержка всех естественных языков, в том числе и перевод между языками в медицинской карте;
+* интеграция с терминологиями, в том числе и множественные связи.
 
-*Shared Care EHR*
+h3. Распределенная ЭМК
 
-The following requirements addressed in openEHR correspond to an integrated shared care EHR:
+Требования в openEHR для распределенной электронной медицинской карты:
 
-* support for patient privacy, including anonymous EHRs;
-* facilitate sharing of EHRs via interoperability at data and knowledge levels;
-* compatibility with CEN 13606, Corbamed, and messaging systems;
-* support semi-automated and automated distributed workflows.
+* поддержка безопасности пациентов, в том числе анонимные ЭМК; 
+* содействие коллективной распределенной работы с ЭМК за счет интероперабельности на уровне данных и на уровне знаний;
+* совместимость с CEN 13606 (ГОСТ Р ИСО/ТС 13606), Corbamed и системами передачи сообщений;
+* поддержка полуавтоматических и автоматических распределенных процессов.
 
-h2. Clinical Aims
+h2. Клиническое значение
 
-From a more specifically clinical care perspective (rather than a record-keeping perspective), the following requirements have been identified during the development of openEHR:
+Требования, сформированные во время разработки openEHR, для перспективы более клинически-значимой эмк (в отличии от эмк как архива медицинских данных)
 
-* The need for a patient-centric, lifelong electronic health record that entails a holistic view of patient needs as opposed to niche problem-solving and decision-support techniques for limited diagnostic purposes;
-* Integration of different views of the patient (GP, emergency and acute care, pathology, radiology, computerised patient-order entry, etc.) with the vast body of available knowledge resources (terminologies, clinical guidelines and computerised libraries);
-* Clinical decision-support to improve patient safety and reduced costs through repeated medical investigations;
-* Access to standards-based computing applications.
+* Потребность в пациентоцентрической эмк длительного хранения от рождения и до смерти, которая создает всеобъемлющий взгляд на пациента в отличии от узкими проблемно-ориентированными техниками или поддержка принятия решений для ограниченных диагностических целей;
+* Интеграция различных взглядов на пациента (общая медицинская  практика, скорая и неотложная помощь, патологии, инструментальная диагностика, компьютерные записи направлений)  с огромными количеством ресурсов -знаний (терминологии, клинические руководства и компьютеризированные библиотеки;
+* поддержка принятия решений для повышения безопасности пациента и уменьшения стоимости через повторно используемые  медицинские исследования;
+* доступ к приложениям, основанным на стандартах.
 
-The Integrated Care EHR holds great promise: to generalise and make widely available the benefits of computerisation that have been demonstrated individually and in isolated settings. These can be summarised as:
+Интегрированная ЭМК  содержит большое обещание - обобщить и сделать широко доступными преимущества компьютеризации которые ранее были доступны отдельно в обособленных окружениях. Суммарно это:
 
-* Reducing adverse events arising from medication errors such as interactions, duplications or inappropriate treatments and the flow-on costs associated with these;
-* Improving the timely access to critical information and reduced clinician time searching for information;
-* Reducing the incidence of patients being overlooked in the healthcare system due to information not being communicated;
-* Reducing the duplication of investigations and other tests and procedures due to results not being available in the local computing environment;
-* Improved prevention and early detection, based on predictive risk factor analysis, which is possible with quality EHR data;
-* Improved decision making through decision support tools with access to the patient’s whole EHR;
-* Improving access to and computation of evidence based guidelines;
-* Increasing targeted health initiatives known to be effective, based on patient criteria; and
-* Reduced hospitalisations and readmissions.
+* Уменьшение нежелательных действий возникающих из-за медицинских ошибок таких как взаимодействие, дублирование, неправильное лечение  и связанные с этим текущие расходы.
+* Уменьшение количества повторных осмотров и проверок из-за проблем с передачей информации
+* Уменьшения дублирования исследований и других тестов и процедур вследствие того что результаты не доступны в локальном окружении;
+* Улучшение предотвращения и раннее обнаружение основанное на предсказывающем анализе факторов риска которое возможно с качественными данными в эмк;
+* Улучшение принятия врачебных решений с использованием инструментов поддержки принятия решений с доступом ко всей эмк пациента;
+* Улучшение доступа к руководствам, основанным на доказательной медицине и их компьютерная обработка;
+* Повышение профилактических мер эффективных на основе критериев пациента
+* Уменьшение количества госпитализаций и повторных госпитализаций.
 
-One comprehensive statement of EHR requirements covering many of the above is the ISO Technical Report 18308[1] for which an openEHR profile has been created[2]. The requirements summarised above are described in more detail in the openEHR EHR Information Model document.
-
-fn1. see "http://www.openehr.org/downloads/ISOEHRRequirements.zip":http://www.openehr.org/downloads/ISOEHRRequirements.zip
-
-fn2. see "http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf":http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf
-
-h2. Deployment Environments
-
-Ultimately any software and information architecture only provides utility when deployed. The architecture of openEHR is designed to support the construction of a number of types of system. One of the most important, the integrated shared care health record is illustrated in FIGURE 3.
-
-In this form, the openEHR services are added to the existing IT infrastructure to provide a shared, secure health record for patients that are seen by any number of health providers in their community context. openEHR-enabled systems can also be used to provide EMR/EPR functionality at provider locations. Overall, a number of important categories of system can be implemented using openEHR including the following:
-
-FIGURE 3 Community Shared-care Context
-
-* shared-care community or regional health service EHRs;
-* summary EHRs at a national, state, province or similar level;
-* small desktop GP systems;
-* hospital EMRs;
-* consolidated and summary EHRs in federation environments;
-* legacy data purification and validation gateways;
-* web-based secure EHR systems for mobile patients.
-
-
-
-
+ISO Technical Report 18308[1] - подробный документ с требованиями к ЭМК, который охватывает множество из перечисленных выше. Для него был создан профиль openEHR[2]. Требования, кратко изложенные выше, более подробно описаны в документе "Информационная модель ЭМК в openEHR".
+ 
+fn1. См. "http://www.openehr.org/downloads/ISOEHRRequirements.zip":http://www.openehr.org/downloads/ISOEHRRequirements.zip
+ 
+fn2. См. "http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf":http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf
+ 
+h2. Среда развёртывания
+ 
+Прежде всего любое программное обеспечение и информационная архитектура приносит пользу только тогда, когда оно работает. Архитектура openEHR предназначена для создания множества видов систем. Из них наиболее важной является интегрированная электронная медицинская карта, см. рисунок 3.
+ 
+В таком виде, сервис openEHR добавляется в существующую ИТ-инфраструктуру для того, чтобы обеспечить распределенную, безопасную медицинскую карту пациентов, которая видна всем поставщикам медицинских услуг, находящимся в одном сообществе. Системы на основе openEHR также могут быть использованы для госпитальных ЭМК, находящихся по месту расположения медицинской организации. В целом на основе openEHR может быть реализован ряд важных видов систем:
+ 
+Рисунок 3 Контекст сообщества с распределенной медицинской помощью
+ 
+* Сообщество с распределенной медицинской помощью или региональный сервис ЭМК;
+* Интегрированная ЭМК на национальном уровне, на уровне штата, области или эквивалентном;
+* Небольшие настольные системы для врачей общей практики;
+* Госпитальные ЭМК;
+* Консолидированная и интегрированная ЭМК в федеративной среде ;
+* Шлюзы для очистки и устранения ошибок в унаследованных данных;
+* Веб-системы с защищенной ЭМК для мобильных пациентов.
