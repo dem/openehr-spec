@@ -1,14 +1,14 @@
-h1. Paths and Locators
+h1. 11 Paths and Locators
 
-h2. Overview
+h2. 11.1 Overview
 
 The openEHR architecture includes a path mechanism that enables any node within a top level structure to be specified from the top of the structure using a "semantic" (i.e. archetype-based) X-path compatible path. The availability of such paths radically changes the available querying possibilities with health information, and is one of the major distinguishing features of openEHR.
 
 Technically, the combination of a path and a Version identifier such as @OBJECT_VERSION_ID@ forms a "globally qualified node reference" which can be expressed using @LOCATABLE_REF@. It can also be expressed in portable @URI@ form as a @DV_EHR_URI@, known as a "globally qualified node locator". Either representation enables any openEHR data node to be referred to from anywhere. This section describes the syntax and semantics of paths, and of the URI form of reference. In the following, the term "archetype path" means a path extracted from an archetype, while "data path" means one that identifies an item in data. They are no different formally, and this terminology is only used to indicate where they are used.
 
-h2. Paths
+h2. 11.2 Paths
 
-h3. Basic Syntax
+h3. 11.2.1 Basic Syntax
 
 Paths in openEHR are defined in an Xpath[1]-compatible syntax which is a superset of the path syntax described in the Archetype Definition Language (ADL). The syntax is designed to be easily mappable to Xpath expressions, for use with openEHR-based XML.
 
@@ -30,7 +30,7 @@ fn1. See W3C Xpath 1.0 specification, 1999. Available at "http://www.w3.org/TR/x
 
 fn2. In all openEHR documentation, the term "attribute" is used in the object-oriented sense of "property of an object", not in the XML sense of named values appearing within a tag. The syntax described here should not be considered to necessarily have a literal mapping to XML instance, but rather to have a logical mapping to object-oriented data structures.
 
-h3. Predicate Expressions
+h3. 11.2.2 Predicate Expressions
 
 **Overview**
 Paths specified solely with attribute names are limited in two ways. Firstly, they can only locate objects in structures in which there are no containers such as lists or sets. However, in any realistic data, including most openEHR data, list, set and hash structures are common. Additional syntax is needed to match a particular object from among the siblings referred to by a container attribute. This takes the form of a predicate expression enclosed in brackets ('[]') after the relevant attribute in a segment, i.e.:
@@ -72,7 +72,7 @@ bc.   /data/items[at0002.1
     AND value/defining_code/terminology_id/value = "ICD10AM"
     AND value/defining_code/code_string = "A04"]
 
-h3. Paths within Top-level Structures
+h3. 11.2.3 Paths within Top-level Structures
 
 Paths within top-level structures strictly adhere to attribute and function names in the relevant parts of the reference model. Predicate expressions are needed to distinguish multiple siblings in various points in paths into these structures, but particularly at archetype "chaining" points. A chaining point is where one archetype takes over from another as illustrated in FIGURE 30. Chaining points in Compositions occur between the Composition and a Section structure, potentially between a Section structure and other sub-Section structures (constrained by a different Section archetype), and between either Compositions or Section structures, and Entries. Chaining might also occur inside an Entry, if archetyping is used on lower level structures such as Item_lists etc. Most chaining points correspond to container types such as @List<T>@ etc., e.g. @COMPOSITION@.__content__ is defined to be a @List<CONTENT_ITEM>@, meaning that in real data, the content of a Composition could be a List of Section structures. To distinguish between such sibling structures, predicate expressions are used, based on the __archetype_id__. At the root point of an archetype in data (e.g. top of a Section structure), the __archetype_id__ carries the identifier of the archetype used to create that structure, in the same manner as any interior point in an archetyped structure has an __archetype_node_id__ attribute carrying archetype __node_id__ values. The chaining point between Sections and Entries works in the same manner, and since multiple Entries can occur under a single Section, archetype_id predicates are also used to distinguish them. The same shorthand is used for __archetype_id__ predicate expressions as for __archetype_node_ids__, i.e. instead of using ==<code>[@archetype_id = "xxxxx"]</code>==, @[xxxx]@ can be used instead.
   
@@ -91,7 +91,7 @@ bc.   /content[openEHR-EHR-SECTION.vital_signs.v1 and name/value='Vital signs']/
 
 Paths within the other top level types follow the same general approach, i.e. are created by following the required attributes down the hierarchy.
 
-h3. Data Paths and Uniqueness
+h3. 11.2.4 Data Paths and Uniqueness
 
 Archetype paths are not guaranteed to uniquely identify items in data, due to the fact that one archetype node may correspond to multiple instances in the data. However it is often necessary to be able to construct a unique path to an item in real data. This can be done by using attributes other than __archetype_node_id__ in path predicates. Consider as an example the following @OBSERVATION@ archetype:
 
@@ -206,11 +206,11 @@ As a general rule, one or more other attribute values in the runtime data will u
 * a guaranteed unique path can always be constructed to any data item in openEHR data using a combination of __archetype_node_id__ and __name__ values (as shown in the example paths above);
 * the __name__ value may be systematically defined to be a copy of one or more other attribute values. For example, in an @EVENT@ object, name could clearly be a string copy of the __time__ attribute.
 
-h2. EHR URIs
+h2. 11.3 EHR URIs
 
 There are two broad categories of URIs that can be used with any resource: direct references, and queries. The first kind are usually generated by the system containing the referred-to item, and passed to other systems as definitive references, while the second are queries from the requesting system in the form of a URI.
 
-h3. EHR Reference URIs
+h3. 11.3.1 EHR Reference URIs
 
 To create a reference to a node in an EHR in the form of a URI (uniform resource identifier), three elements are needed: the path __within__ a top-level structure, a reference to a top-level structure within an EHR, and a reference to an EHR. These can be combined to form a URI in an "ehr" scheme-space, obeying the following syntax:
 
