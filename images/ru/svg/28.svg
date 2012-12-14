@@ -175,7 +175,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -314,26 +314,26 @@
                                    transform="scale(1.0373934,-0.96395451)"
                                    x="137.34727"
                                    y="-821.75702"
-                                   style="font-size:11.56745434px">
+                                   style="font-size:11.56745433999999939px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50307"
                                    sodipodi:role="line"
                                    y="-821.75702"
                                    x="137.34727 144.18828 150.53394 155.41513 161.27623 167.6219 172.98767 177.86887 180.29494 186.64059"
-                                   style="font-size:10.76814365px;font-style:italic;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-BoldItalic">OBJECT_ID</tspan>
+                                   style="font-size:10.76814365000000073px;font-style:normal;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-stretch:normal">OBJECT_ID</tspan>
                                 </text>
                                 <text
                                    id="text50309"
                                    transform="scale(1.0373934,-0.96395451)"
                                    x="189.05374"
                                    y="-821.75702"
-                                   style="font-size:11.56745434px">
+                                   style="font-size:11.56745433999999939px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50311"
                                    sodipodi:role="line"
                                    y="-821.75702"
                                    x="189.05374 194.20091 196.6302"
-                                   style="font-size:10.76814365px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">= 5</tspan>
+                                   style="font-size:10.76814365000000073px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">= 5</tspan>
                                 </text>
                                 <path
                                    id="path50313"
@@ -389,13 +389,14 @@
                                    id="text50333"
                                    transform="scale(1,-1)"
                                    x="162.76315"
-                                   y="-744.13635">
+                                   y="-744.13635"
+                                   style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50335"
                                    sodipodi:role="line"
                                    y="-744.13635"
                                    x="162.76315 167.86955 172.24977 175.53673 179.91696 184.65628 188.66942 192.32346 197.06279 201.44301 205.45615 207.25563 211.09322 212.95335"
-                                   style="font-size:7.98000002px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow">OBJECT_REF = 2</tspan>
+                                   style="font-size:7.98000002000000030px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">OBJECT_REF = 2</tspan>
                                 </text>
                                 <path
                                    id="path50337"
@@ -452,26 +453,26 @@
                                    transform="scale(1.0373934,-0.96395451)"
                                    x="290.84738"
                                    y="-832.40063"
-                                   style="font-size:11.56745434px">
+                                   style="font-size:11.56745433999999939px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50359"
                                    sodipodi:role="line"
                                    y="-832.40063"
                                    x="290.84738 297.66901 303.9953 308.85712 314.75806 321.08432 326.43073 331.29254 333.7789 340.10519"
-                                   style="font-size:10.76814365px;font-style:italic;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-BoldItalic">OBJECT_ID</tspan>
+                                   style="font-size:10.76814365000000073px;font-style:normal;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-stretch:normal">OBJECT_ID</tspan>
                                 </text>
                                 <text
                                    id="text50361"
                                    transform="scale(1.0373934,-0.96395451)"
                                    x="342.612"
                                    y="-832.40063"
-                                   style="font-size:11.56745434px">
+                                   style="font-size:11.56745433999999939px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50363"
                                    sodipodi:role="line"
                                    y="-832.40063"
                                    x="342.612 347.75919 350.18848"
-                                   style="font-size:10.76814365px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">= 2</tspan>
+                                   style="font-size:10.76814365000000073px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">= 2</tspan>
                                 </text>
                                 <path
                                    id="path50365"
@@ -528,13 +529,13 @@
                                    transform="scale(0.98936474,-1.0107496)"
                                    x="332.01419"
                                    y="-761.33234"
-                                   style="font-size:11.87237644px">
+                                   style="font-size:11.87237644000000003px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50387"
                                    sodipodi:role="line"
                                    y="-761.33234"
                                    x="332.01419 337.42859 342.06506 345.5809 350.19092 355.21207 359.45535 363.31396 368.33514 372.97162 377.2149 379.15533 383.21054 385.15097"
-                                   style="font-size:8.54811192px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow">OBJECT_REF = 5</tspan>
+                                   style="font-size:8.54811192000000020px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">OBJECT_REF = 5</tspan>
                                 </text>
                                 <path
                                    id="path50389"
@@ -566,13 +567,13 @@
                                    transform="scale(0.98936474,-1.0107496)"
                                    x="331.89291"
                                    y="-729.81116"
-                                   style="font-size:11.87237644px">
+                                   style="font-size:11.87237644000000003px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                                 <tspan
                                    id="tspan50401"
                                    sodipodi:role="line"
                                    y="-729.81116"
                                    x="331.89291 337.30045 341.97113 345.42969 350.05936 355.07367 359.31012 363.1619 368.17624 372.80588 377.11157 378.9913 383.03967 384.9801"
-                                   style="font-size:8.54811192px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow">OBJECT_REF = 7</tspan>
+                                   style="font-size:8.54811192000000020px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">OBJECT_REF = 7</tspan>
                                 </text>
                                 <path
                                    id="path50403"

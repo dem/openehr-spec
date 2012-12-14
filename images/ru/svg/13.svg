@@ -14,7 +14,7 @@
    id="svg15588"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="12.svg">
+   sodipodi:docname="13.svg">
   <defs
      id="defs15590">
     <clipPath
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -180,25 +180,27 @@
                  id="text24069"
                  transform="scale(1,-1)"
                  x="151.44183"
-                 y="-741.2392">
+                 y="-741.2392"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24071"
                    sodipodi:role="line"
                    y="-741.2392"
                    x="151.44183 160.77628 170.87962"
-                   style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">EHR</tspan>
+                   style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
               </text>
               <text
                  id="text24073"
                  transform="scale(1,-1)"
                  x="158.76183"
-                 y="-730.85919">
+                 y="-730.85919"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24075"
                    sodipodi:role="line"
                    y="-730.85919"
                    x="158.76183 163.08003 167.39822"
-                   style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">111</tspan>
+                   style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">111</tspan>
               </text>
               <path
                  id="path24077"
@@ -229,25 +231,27 @@
                  id="text24087"
                  transform="scale(1,-1)"
                  x="180.24184"
-                 y="-726.77924">
+                 y="-726.77924"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24089"
                    sodipodi:role="line"
                    y="-726.77924"
                    x="180.24184 189.57628 199.67963"
-                   style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">EHR</tspan>
+                   style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
               </text>
               <text
                  id="text24091"
                  transform="scale(1,-1)"
                  x="187.50183"
-                 y="-716.39923">
+                 y="-716.39923"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24093"
                    sodipodi:role="line"
                    y="-716.39923"
                    x="187.50183 192.48064 197.45943"
-                   style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">222</tspan>
+                   style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">222</tspan>
               </text>
               <path
                  id="path24095"
@@ -278,25 +282,27 @@
                  id="text24105"
                  transform="scale(1,-1)"
                  x="213.00183"
-                 y="-715.01923">
+                 y="-715.01923"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24107"
                    sodipodi:role="line"
                    y="-715.01923"
                    x="213.00183 222.33627 232.43962"
-                   style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">EHR</tspan>
+                   style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
               </text>
               <text
                  id="text24109"
                  transform="scale(1,-1)"
                  x="220.26183"
-                 y="-704.63922">
+                 y="-704.63922"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24111"
                    sodipodi:role="line"
                    y="-704.63922"
                    x="220.26183 225.24063 230.21944"
-                   style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">333</tspan>
+                   style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">333</tspan>
               </text>
               <path
                  id="path24113"
@@ -1007,13 +1013,14 @@
                  id="text24395"
                  transform="scale(1,-1)"
                  x="310.08182"
-                 y="-740.33923">
+                 y="-740.33923"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24397"
                    sodipodi:role="line"
                    y="-740.33923"
                    x="310.08182 316.78989 323.45013 330.64822 337.30847 345.1221"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">PERSON</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">PERSON</tspan>
               </text>
               <path
                  id="path24399"
@@ -1044,13 +1051,14 @@
                  id="text24409"
                  transform="scale(1,-1)"
                  x="310.92184"
-                 y="-708.59924">
+                 y="-708.59924"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24411"
                    sodipodi:role="line"
                    y="-708.59924"
                    x="310.92184 318.13089 325.89767 332.00116"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">ROLE</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">ROLE</tspan>
               </text>
               <path
                  id="path24413"
@@ -1081,13 +1089,14 @@
                  id="text24423"
                  transform="scale(1,-1)"
                  x="377.16183"
-                 y="-739.31921">
+                 y="-739.31921"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24425"
                    sodipodi:role="line"
                    y="-739.31921"
                    x="377.16183 384.37387 392.14368 398.80789 406.01993"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">AGENT</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">AGENT</tspan>
               </text>
               <path
                  id="path24427"
@@ -1118,13 +1127,14 @@
                  id="text24437"
                  transform="scale(1,-1)"
                  x="355.44183"
-                 y="-707.57922">
+                 y="-707.57922"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24439"
                    sodipodi:role="line"
                    y="-707.57922"
                    x="355.44183 361.82321 367.70557 374.08694 380.01016 385.93338 388.23114 393.70615 398.98795 404.00479 406.30258 412.68393"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">ORGANISATION</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">ORGANISATION</tspan>
               </text>
               <path
                  id="path24441"
@@ -1175,13 +1185,14 @@
                  id="text24459"
                  transform="scale(1,-1)"
                  x="90.541832"
-                 y="-734.09924">
+                 y="-734.09924"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24461"
                    sodipodi:role="line"
                    y="-734.09924"
                    x="90.541832 97.224991 104.45595 111.68691"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">EHR</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
               </text>
               <path
                  id="path24463"
@@ -1697,25 +1708,26 @@
                  id="text24667"
                  transform="scale(1,-1)"
                  x="224.34183"
-                 y="-591.71924">
+                 y="-591.71924"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan24669"
                    sodipodi:role="line"
                    y="-591.71924"
                    x="224.34183 230.4254 237.14542 244.33453 252.62923 255.39612 262.58524 270.3869 276.50833 284.25522 292.05688"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">TERMINOLOGY</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">TERMINOLOGY</tspan>
                 <tspan
                    id="tspan24671"
                    sodipodi:role="line"
                    y="-735.05957"
                    x="433.38232 440.5864 447.24265 455.55228 463.31412 471.07593 478.28 485.53784 492.19809 499.40216 502.18399 509.38806"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">DEMOGRAPHIC</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">DEMOGRAPHIC</tspan>
                 <tspan
                    id="tspan24673"
                    sodipodi:role="line"
                    y="-593.09967"
                    x="115.56269 122.76876 130.02661 137.23267 144.43872 151.09698 157.19749 163.85574 170.51401 177.23402"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">ARCHETYPES</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">ARCHETYPES</tspan>
               </text>
               <path
                  id="path24675"
@@ -2576,13 +2588,14 @@
                  id="text25017"
                  transform="scale(1,-1)"
                  x="341.04184"
-                 y="-592.5592">
+                 y="-592.5592"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan25019"
                    sodipodi:role="line"
                    y="-592.5592"
                    x="341.04184 347.70605 353.26474 356.05453 361.61322 364.95081 367.7406 373.84708 379.95355 382.71545 389.3797 397.6973"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000d4;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">Existing PMI</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000d4;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Existing PMI</tspan>
               </text>
               <path
                  id="path25021"
@@ -3208,43 +3221,45 @@
                  id="text25269"
                  transform="scale(1,-1)"
                  x="440.28183"
-                 y="-723.89923">
+                 y="-723.89923"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan25271"
                    sodipodi:role="line"
                    y="-723.89923"
                    x="440.28183 447.48889 454.20889 460.86816 468.63297 475.29224 478.07706 483.95844 491.7601 498.59863"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">REPOSITORY</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">REPOSITORY</tspan>
                 <tspan
                    id="tspan25273"
                    sodipodi:role="line"
                    y="-722.93909"
                    x="70.02182 77.236847 83.904053 90.571289 98.344086 105.06409 107.82599 113.76712 121.50903 128.34756"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">REPOSITORY</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">REPOSITORY</tspan>
               </text>
               <text
                  id="text25275"
                  transform="scale(1,-1)"
                  x="77.521698"
-                 y="-711.77887">
+                 y="-711.77887"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan25277"
                    sodipodi:role="line"
                    y="-711.77887"
                    x="77.521698 80.879211 85.900047 91.478645 94.778397 99.799232 101.95757 107.53616 113.11475 118.63359 124.21219"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">(versioned)</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">(versioned)</tspan>
                 <tspan
                    id="tspan25279"
                    sodipodi:role="line"
                    y="-712.73901"
                    x="447.78171 451.12927 456.14014 461.70877 465.00851 470.01941 472.26138 477.83005 483.39868 488.91751 494.48615"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">(versioned)</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">(versioned)</tspan>
                 <tspan
                    id="tspan25281"
                    sodipodi:role="line"
                    y="-677.81927"
                    x="281.22162 286.77133 288.99442 292.29416 297.87277 302.86472"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">direct</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">direct</tspan>
               </text>
               <path
                  id="path25283"
@@ -3295,25 +3310,26 @@
                  id="text25301"
                  transform="scale(1,-1)"
                  x="285.06183"
-                 y="-666.65924">
+                 y="-666.65924"
+                 style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                 <tspan
                    id="tspan25303"
                    sodipodi:role="line"
                    y="-666.65924"
                    x="285.06183 288.42633 293.94516 296.76184"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">refs</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">refs</tspan>
                 <tspan
                    id="tspan25305"
                    sodipodi:role="line"
                    y="-733.79956"
                    x="265.32211 267.5412 273.08691 278.63266 280.85175 284.17639 289.72211 294.71008"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">indirect</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">indirect</tspan>
                 <tspan
                    id="tspan25307"
                    sodipodi:role="line"
                    y="-722.6394"
                    x="273.06201 276.42651 281.94534 284.76202"
-                   style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">refs</tspan>
+                   style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#9a05cc;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">refs</tspan>
               </text>
             </g>
           </g>

@@ -15,7 +15,7 @@
    id="svg15588"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="9.svg">
+   sodipodi:docname="10.svg">
   <defs
      id="defs15590">
     <clipPath
@@ -61,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,19 +84,20 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20066"
-           transform="matrix(1,0,0,-1,37.14,800.2403)">
+           transform="matrix(1,0,0,-1,37.14,800.2403)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20068"
              sodipodi:role="line"
              y="0"
              x="0 4.9923 10.0305 15.0228 20.0151 26.006399 32.492699 38.979 41.500801 47.4921 52.484402 56.972698 61.460999 66.4533 71.491501 76.470299 78.992104 84.511803 87.0336 90.018898 95.0112 99.499496 101.9898 106.9821 109.9674 398.08621 404.08649 407.07181 411.56009 416.5524 418.59091 421.08121 426.07349 430.5618 433.05209 438.0444 441.02969 446.022 448.54379 455.53409 460.0224 465.01471 468 472.48831 474.47461 479.46689"
-             style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">openEHR Package StructureArchitecture Overview</tspan>
+             style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">openEHR Package StructureArchitecture Overview</tspan>
           <tspan
              id="tspan20070"
              sodipodi:role="line"
              y="10.98"
              x="0 6.4907999 11.4876 15.9804 18.502199 23.499001 25.993799 30.990601 33.485401"
-             style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Rev 1.1.1</tspan>
+             style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Rev 1.1.1</tspan>
         </text>
         <path
            id="path20082"
@@ -150,13 +151,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20102"
-           transform="matrix(1,0,0,-1,292.74,642.6203)">
+           transform="matrix(1,0,0,-1,292.74,642.6203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20104"
              sodipodi:role="line"
              y="0"
              x="0 5.4587998 11.4576"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">ehr</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">ehr</tspan>
         </text>
         <path
            id="path20106"
@@ -210,13 +212,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20126"
-           transform="matrix(1,0,0,-1,55.02,721.4003)">
+           transform="matrix(1,0,0,-1,55.02,721.4003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20128"
              sodipodi:role="line"
              y="0"
              x="0 5.4671998 11.4744 20.2176 26.2248 32.231998 37.6992 40.430401 43.701599 46.4328 52.439999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">composition</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">composition</tspan>
         </text>
         <path
            id="path20130"
@@ -270,13 +273,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20150"
-           transform="matrix(1,0,0,-1,77.34,668.6603)">
+           transform="matrix(1,0,0,-1,77.34,668.6603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20152"
              sodipodi:role="line"
              y="0"
              x="0 6.0107999 11.4816 16.9524 19.687201 25.698 31.1688 34.4436 37.178398 43.189201"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">navigation</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">navigation</tspan>
         </text>
         <path
            id="path20154"
@@ -330,13 +334,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20174"
-           transform="matrix(1,0,0,-1,162.6,669.3803)">
+           transform="matrix(1,0,0,-1,162.6,669.3803)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20176"
              sodipodi:role="line"
              y="0"
              x="0 5.46 11.46 14.724 18.540001"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">entry</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">entry</tspan>
         </text>
         <path
            id="path20178"
@@ -385,13 +390,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20196"
-           transform="matrix(1,0,0,-1,69.36,699.7403)">
+           transform="matrix(1,0,0,-1,69.36,699.7403)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20198"
              sodipodi:role="line"
              y="0"
              x="0 5.4552002 11.5152 17.510401 20.7696 26.2248 32.284801"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">content</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">content</tspan>
         </text>
         <path
            id="path20200"
@@ -445,13 +451,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20220"
-           transform="matrix(1,0,0,-1,195.84,230.9003)">
+           transform="matrix(1,0,0,-1,195.84,230.9003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20222"
              sodipodi:role="line"
              y="0"
              x="0 3.2723999 8.7407999 12.5652 21.309601 24.042 30.0504 36.0588 38.791199 44.799599 50.807999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">terminology</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">terminology</tspan>
         </text>
         <path
            id="path20224"
@@ -505,13 +512,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20244"
-           transform="matrix(1,0,0,-1,360.72,705.5603)">
+           transform="matrix(1,0,0,-1,360.72,705.5603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20246"
              sodipodi:role="line"
              y="0"
              x="0 5.4684 11.4768 15.3012 20.7696 26.238001 31.7064 34.978802 38.8032 44.271599 49.740002"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">ehr_extract</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">ehr_extract</tspan>
         </text>
         <path
            id="path20248"
@@ -565,13 +573,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20268"
-           transform="matrix(1,0,0,-1,320.94,533.7203)">
+           transform="matrix(1,0,0,-1,320.94,533.7203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20270"
              sodipodi:role="line"
              y="0"
              x="0 6.0096002 11.4792 17.4888 22.958401 26.784 29.517599"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">generic</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">generic</tspan>
         </text>
         <path
            id="path20272"
@@ -625,13 +634,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20292"
-           transform="matrix(1,0,0,-1,355.56,641.0603)">
+           transform="matrix(1,0,0,-1,355.56,641.0603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20294"
              sodipodi:role="line"
              y="0"
              x="0 6.0084 11.4768 20.221201 26.229601 32.237999 36.062401 41.5308 47.5392 53.5476 56.279999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">demographic</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">demographic</tspan>
         </text>
         <path
            id="path20296"
@@ -685,13 +695,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20316"
-           transform="matrix(1,0,0,-1,183,532.4603)">
+           transform="matrix(1,0,0,-1,183,532.4603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20318"
              sodipodi:role="line"
              y="0"
              x="0 5.4660001 9.2880001 14.754 20.76 26.226 29.496 34.962002 40.967999 46.433998"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">archetyped</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">archetyped</tspan>
         </text>
         <path
            id="path20320"
@@ -740,13 +751,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20338"
-           transform="matrix(1,0,0,-1,168.9,580.5203)">
+           transform="matrix(1,0,0,-1,168.9,580.5203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20340"
              sodipodi:role="line"
              y="0"
              x="0 5.4744 11.4888 20.188801 28.948799 34.9632"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">common</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">common</tspan>
         </text>
         <path
            id="path20342"
@@ -795,23 +807,25 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20360"
-           transform="matrix(1,0,0,-1,96,276.3803)">
+           transform="matrix(1,0,0,-1,96,276.3803)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20362"
              sodipodi:role="line"
              y="0"
              x="0 5.4587998 11.4576 17.4564 23.4552 29.454 33.268799"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">support</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">support</tspan>
         </text>
         <text
            id="text20364"
-           transform="matrix(1,0,0,-1,50.52,465.6203)">
+           transform="matrix(1,0,0,-1,50.52,465.6203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20366"
              sodipodi:role="line"
              y="0"
              x="0 7.001184 14.785248 19.451773"
-             style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">core</tspan>
+             style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">core</tspan>
         </text>
         <path
            id="path20368"
@@ -1065,13 +1079,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20468"
-           transform="matrix(1,0,0,-1,278.04,230.9003)">
+           transform="matrix(1,0,0,-1,278.04,230.9003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20470"
              sodipodi:role="line"
              y="0"
              x="0 8.7419996 14.208 19.674 25.139999 31.146 34.967999 40.433998 49.175999 54.641998 60.647999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">measurement</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">measurement</tspan>
         </text>
         <path
            id="path20472"
@@ -1125,13 +1140,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20492"
-           transform="matrix(1,0,0,-1,364.38,231.3803)">
+           transform="matrix(1,0,0,-1,364.38,231.3803)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20494"
              sodipodi:role="line"
              y="0"
              x="0 2.7228 8.7215996 14.2404 20.2404 23.503201 26.226 29.4888 32.211601 37.670399 43.1292 46.391998 49.114799 55.174801"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">identification</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">identification</tspan>
         </text>
         <path
            id="path20496"
@@ -1185,13 +1201,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20516"
-           transform="matrix(1,0,0,-1,139.02,325.6404)">
+           transform="matrix(1,0,0,-1,139.02,325.6404)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20518"
              sodipodi:role="line"
              y="0"
              x="0 3.2723999 8.7407999 14.2092"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">text</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">text</tspan>
         </text>
         <path
            id="path20520"
@@ -1240,13 +1257,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20538"
-           transform="matrix(1,0,0,-1,48.36,377.1803)">
+           transform="matrix(1,0,0,-1,48.36,377.1803)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20540"
              sodipodi:role="line"
              y="0"
              x="0 6.006 11.472 14.742 20.208 25.674 28.944 34.41 40.416 45.882"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">data_types</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">data_types</tspan>
         </text>
         <path
            id="path20542"
@@ -1300,13 +1318,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20562"
-           transform="matrix(1,0,0,-1,72.42,325.1603)">
+           transform="matrix(1,0,0,-1,72.42,325.1603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20564"
              sodipodi:role="line"
              y="0"
              x="0 6.0084 11.4768 16.9452 19.677601"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">basic</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">basic</tspan>
         </text>
         <path
            id="path20566"
@@ -1360,13 +1379,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20586"
-           transform="matrix(1,0,0,-1,186.6,359.9003)">
+           transform="matrix(1,0,0,-1,186.6,359.9003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20588"
              sodipodi:role="line"
              y="0"
              x="0 6.0084 12.0168 17.485201 23.493601 26.766001 29.4984 32.770802"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">quantity</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">quantity</tspan>
         </text>
         <path
            id="path20590"
@@ -1420,75 +1440,78 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20610"
-           transform="matrix(1,0,0,-1,134.94,158.4203)">
+           transform="matrix(1,0,0,-1,134.94,158.4203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20612"
              sodipodi:role="line"
              y="0"
              x="0 5.4647999 10.9296 16.3944 22.3992 31.139999 36.604801 42.6096 45.369598 48.638401 54.103199 60.108002 65.5728"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#002194;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">assumed types</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#002194;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">assumed types</tspan>
         </text>
         <text
            id="text20614"
-           transform="matrix(1,0,0,-1,238.44,152.9603)">
+           transform="matrix(1,0,0,-1,238.44,152.9603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20616"
              sodipodi:role="line"
              y="0"
              x="0 2.8176839 8.3365202 11.154204 16.67304 22.259604 27.77844"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Integer</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Integer</tspan>
           <tspan
              id="tspan20618"
              sodipodi:role="line"
              y="10.680108"
              x="-44.760239 -38.081062 -32.507446 -26.988611 -24.770519 -19.196903 -13.623288"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Boolean</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Boolean</tspan>
           <tspan
              id="tspan20620"
              sodipodi:role="line"
              y="2.1603241"
              x="45.780144 51.960323 54.722233 58.081741 60.299831 65.818665"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">String</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">String</tspan>
           <tspan
              id="tspan20622"
              sodipodi:role="line"
              y="18.060469"
              x="4.0806122 11.3046 16.875229 22.445856"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Real</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Real</tspan>
           <tspan
              id="tspan20624"
              sodipodi:role="line"
              y="18.6003"
              x="32.640911 39.842987 45.391705 50.940418 54.268055 59.816772 64.807732 67.587563 73.136276"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Character</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Character</tspan>
           <tspan
              id="tspan20626"
              sodipodi:role="line"
              y="11.580492"
              x="82.560432 85.368156 90.886993 93.694717 99.213554 102.56908 107.54907 113.12568 115.37564 121.23112 127.35553"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Interval&lt;T&gt;</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Interval&lt;T&gt;</tspan>
           <tspan
              id="tspan20628"
              sodipodi:role="line"
              y="20.100277"
              x="138.72089 145.38512 150.9438 153.7336 159.57115 165.67763"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Set&lt;T&gt;</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Set&lt;T&gt;</tspan>
           <tspan
              id="tspan20630"
              sodipodi:role="line"
              y="1.560732"
              x="138.66113 144.19789 146.40802 151.44777 154.20969 160.02533 166.14674"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">List&lt;T&gt;</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">List&lt;T&gt;</tspan>
         </text>
         <text
            id="text20632"
-           transform="matrix(1,0,0,-1,49.26,752.6603)">
+           transform="matrix(1,0,0,-1,49.26,752.6603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20634"
              sodipodi:role="line"
              y="0"
              x="0 7.77987 15.55974 27.21207 34.99194 38.102489"
-             style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">domain</tspan>
+             style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">domain</tspan>
         </text>
         <path
            id="path20636"
@@ -1542,13 +1565,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20656"
-           transform="matrix(1,0,0,-1,206.82,323.9003)">
+           transform="matrix(1,0,0,-1,206.82,323.9003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20658"
              sodipodi:role="line"
              y="0"
              x="0 6.0084 11.4768 14.7492 20.2176 25.686001 28.958401 31.6908 40.4352"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">date_time</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">date_time</tspan>
         </text>
         <path
            id="path20660"
@@ -1602,19 +1626,20 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20680"
-           transform="matrix(1,0,0,-1,308.64,329.9003)">
+           transform="matrix(1,0,0,-1,308.64,329.9003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20682"
              sodipodi:role="line"
              y="0"
              x="0 3.2484 5.9568 14.6772 20.195999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">time_</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">time_</tspan>
           <tspan
              id="tspan20684"
              sodipodi:role="line"
              y="13.68"
              x="-17.219999 -11.7576 -5.7551999 -0.29280001 5.1696 7.8959999 11.1624 13.8888 19.3512 24.813601 28.08 30.8064 36.866402"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">specification</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">specification</tspan>
         </text>
         <path
            id="path20686"
@@ -1668,13 +1693,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20706"
-           transform="matrix(1,0,0,-1,383.46,322.6404)">
+           transform="matrix(1,0,0,-1,383.46,322.6404)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20708"
              sodipodi:role="line"
              y="0"
              x="0 6.0599999 9.8423996"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">uri</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">uri</tspan>
         </text>
         <path
            id="path20710"
@@ -1728,13 +1754,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20730"
-           transform="matrix(1,0,0,-1,426.3,323.4203)">
+           transform="matrix(1,0,0,-1,426.3,323.4203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20732"
              sodipodi:role="line"
              y="0"
              x="0 5.4660001 11.472 16.938 22.403999 28.41 33.875999 39.882 42.612 48.077999 51.348 56.813999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">encapsulated</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">encapsulated</tspan>
         </text>
         <path
            id="path20734"
@@ -1788,13 +1815,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20754"
-           transform="matrix(1,0,0,-1,312.36,414.2603)">
+           transform="matrix(1,0,0,-1,312.36,414.2603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20756"
              sodipodi:role="line"
              y="0"
              x="0 6.006 8.7360001 14.202 17.472 23.478001 27.299999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">history</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">history</tspan>
         </text>
         <path
            id="path20758"
@@ -1843,13 +1871,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20776"
-           transform="matrix(1,0,0,-1,183.72,468.9803)">
+           transform="matrix(1,0,0,-1,183.72,468.9803)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20778"
              sodipodi:role="line"
              y="0"
              x="0 6.0144 11.4888 14.7672 20.2416 25.716 31.190399 34.4688 38.299198 44.313599 49.787998 53.066399 59.080799 62.911201 68.385597"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">data_structures</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">data_structures</tspan>
         </text>
         <path
            id="path20780"
@@ -1903,13 +1932,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20800"
-           transform="matrix(1,0,0,-1,196.92,449.0003)">
+           transform="matrix(1,0,0,-1,196.92,449.0003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20802"
              sodipodi:role="line"
              y="0"
              x="0 2.7312 6.0023999 11.4696 20.212799 25.68 31.1472 34.4184 38.2416 44.248798 49.716 52.987202 58.9944 62.8176"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">item_structure</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">item_structure</tspan>
         </text>
         <path
            id="path20804"
@@ -1963,13 +1993,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20824"
-           transform="matrix(1,0,0,-1,206.88,413.0003)">
+           transform="matrix(1,0,0,-1,206.88,413.0003)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20826"
              sodipodi:role="line"
              y="0"
              x="0 3.8232 9.2903996 15.2976 19.1208 24.587999 30.055201 35.5224 41.529598 44.8008 50.268002 53.5392 56.270401 62.277599"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">representation</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">representation</tspan>
         </text>
         <path
            id="path20828"
@@ -2023,19 +2054,20 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20848"
-           transform="matrix(1,0,0,-1,255.96,537.7404)">
+           transform="matrix(1,0,0,-1,255.96,537.7404)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20850"
              sodipodi:role="line"
              y="0"
              x="0 5.4587998 11.5188 16.9776 22.9764 28.975201 34.433998"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">change_</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">change_</tspan>
           <tspan
              id="tspan20852"
              sodipodi:role="line"
              y="11.4"
              x="3.3 8.7659998 14.772 20.832001 24.0732 27.895201 33.901199"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">control</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">control</tspan>
         </text>
         <path
            id="path20854"
@@ -2089,13 +2121,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20874"
-           transform="matrix(1,0,0,-1,382.32,533.7203)">
+           transform="matrix(1,0,0,-1,382.32,533.7203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20876"
              sodipodi:role="line"
              y="0"
              x="0 6.0084 8.7407999 12.5652 18.0336 23.502001 26.774401 32.782799 36.607201"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">directory</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">directory</tspan>
         </text>
         <path
            id="path20878"
@@ -2149,13 +2182,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20898"
-           transform="matrix(1,0,0,-1,449.1,531.9203)">
+           transform="matrix(1,0,0,-1,449.1,531.9203)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20900"
              sodipodi:role="line"
              y="0"
              x="0 3.822 9.2880001 14.754 20.76 26.766001 30.587999 36.054001"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">resource</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">resource</tspan>
         </text>
         <path
            id="path20902"
@@ -2181,35 +2215,37 @@
         </g>
         <text
            id="text20916"
-           transform="matrix(1,0,0,-1,464.46,228.8603)">
+           transform="matrix(1,0,0,-1,464.46,228.8603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20918"
              sodipodi:role="line"
              y="0"
              x="0 5.0248199 10.00482 14.58144"
-             style="font-size:9.96000004px;font-style:italic;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-BoldItalic">open</tspan>
+             style="font-size:9.96000004000000061px;font-style:normal;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-stretch:normal">open</tspan>
         </text>
         <text
            id="text20920"
-           transform="matrix(1,0,0,-1,484.02044,228.8603)">
+           transform="matrix(1,0,0,-1,484.02044,228.8603)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20922"
              sodipodi:role="line"
              y="0"
              x="0 5.4710279 11.390256 17.309484"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">EHR</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
           <tspan
              id="tspan20924"
              sodipodi:role="line"
              y="11.459976"
              x="-16.799532 -11.343444 -6.3455162 -1.3475879 3.6503401 8.6482677 11.833476 14.560524"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">Support</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Support</tspan>
           <tspan
              id="tspan20926"
              sodipodi:role="line"
              y="22.860191"
              x="-24.239653 -19.859243 -15.299556 -12.118332 -4.798728 -2.5188839 2.4611161 7.5018721 9.7817163 14.761716 19.802471"
-             style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">Terminology</tspan>
+             style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Terminology</tspan>
         </text>
         <path
            id="path20928"
@@ -2263,13 +2299,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text20948"
-           transform="matrix(1,0,0,-1,110.4,229.6404)">
+           transform="matrix(1,0,0,-1,110.4,229.6404)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan20950"
              sodipodi:role="line"
              y="0"
              x="0 6.0120001 11.484 14.76 17.496 23.507999 26.243999 29.52 32.256001 38.268002 44.279999"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">definitions</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">definitions</tspan>
         </text>
         <path
            id="path20952"
@@ -2463,13 +2500,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text21028"
-           transform="matrix(1,0,0,-1,47.94,590.1204)">
+           transform="matrix(1,0,0,-1,47.94,590.1204)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan21030"
              sodipodi:role="line"
              y="0"
              x="0 7.5575881 15.355632 19.239277 23.122919 30.893003 35.545547 43.315632"
-             style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">patterns</tspan>
+             style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">patterns</tspan>
         </text>
         <path
            id="path21032"
@@ -2523,13 +2561,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text21052"
-           transform="matrix(1,0,0,-1,82.08,535.6403)">
+           transform="matrix(1,0,0,-1,82.08,535.6403)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan21054"
              sodipodi:role="line"
              y="0"
              x="0 5.4671998 10.9344 16.4016 21.868799 27.336 32.8032"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">access_</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">access_</tspan>
         </text>
         <path
            id="path21056"
@@ -2578,19 +2617,20 @@
            inkscape:connector-curvature="0" />
         <text
            id="text21074"
-           transform="matrix(1,0,0,-1,60.06,570.5004)">
+           transform="matrix(1,0,0,-1,60.06,570.5004)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan21076"
              sodipodi:role="line"
              y="0"
              x="0 5.4768 10.9536 16.430401 22.447201 26.280001 29.0208 32.301601"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">security</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">security</tspan>
           <tspan
              id="tspan21078"
              sodipodi:role="line"
              y="48.540001"
              x="24.48 29.9508 35.961601 41.972401 45.2472 49.074001 55.084801"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">control</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">control</tspan>
         </text>
         <path
            id="path21080"
@@ -2644,13 +2684,14 @@
            inkscape:connector-curvature="0" />
         <text
            id="text21100"
-           transform="matrix(1,0,0,-1,447.54,641.1803)">
+           transform="matrix(1,0,0,-1,447.54,641.1803)"
+           style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
           <tspan
              id="tspan21102"
              sodipodi:role="line"
              y="0"
              x="0 2.7288001 8.7335997 12.0024 17.467199 23.472 27.292801 32.757599 36.026402 38.755199 44.759998"
-             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:ArialNarrow-Bold">integration</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">integration</tspan>
         </text>
       </g>
     </g>
