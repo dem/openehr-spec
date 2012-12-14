@@ -8,19 +8,21 @@ h3. 13.1 Архитектура 5-ти звенной системы
 # **сервисы нижнего уровня**: включают в себя ЭМК, демографию, терминологию, архетипы, безопасность, положение записей и так далее. В этом слое разделение различных сервисов прозрачно, и каждый сервис имеет крупнозернистый интерфейс.
 # **виртуальная ЭМК**: это слой промежуточный программный слой, и состоит из последовательного набора API к различным сервисам нижнего уровня, предоствляющим доступ к соответсвующим сервисам, тем самым давай доступ к ЭМК; включая сервисы ЭМК, демографии, безопасности, терминологии и архетипов. Он также содержит ядро с поддержкой архетипов и шаблонов, компонент ответственный за создание и обработку архетипизированных данных. В этом слое разделение сервисов нижнего уровня скрыто, предоставлена только функциональность. Возможны другие виртуальные клиенты, состоящие из API для других комбинаций сервисов нижнего уровня.
 # **логика приложения**: Этот слой включает логику, специфичную для приложения, которая может быть пользовательским приложением или другим сервисом, таким как движок запросов.
-# **слой представления**: этот слой состоит из графического интерфейса приложения, там где это применимо
+# **слой представления**: этот слой состоит из графического интерфейса приложения, там где это применимо.
 
 Такие же слои могут использованны в больших системах, как показано на рисунке 37, или в простом случае как в приложении на одной машине.
 
-Рисунок 38 показыает примерное соотношение главных частей программной архитектуры openEHR к 5-ти звенной схеме.
+!37.png!
 
-FIGURE 38 illustrates an approximate mapping of major parts of the openEHR software architecture to the 5-tier scheme. Clearly where parts of the architecture are used will depend on various implementation choices; the mapping shown is therefore not definitive. Nevertheless, the principal use of parts of the architecture is likely to be similar in most systems, as follows:
+Рисунок 38 показыает примерное соотношение главных частей программной архитектуры openEHR к 5-ти звенной схеме. Где будут использоваться части архитектуры зависит от выбора в реализации; поэтому показанное соотношение не является жестким. Тем не менее основное использование частей архитектуры будет скорее всего одинаковым в большинстве систем таким:
 
-* RM and AM: mainly used to construct an archetype- and template-processing kernel;
-* RM @common.change_control@ package: provides the logic for versioning in versioned services such as the EHR and demographics;
-* SM: various service model packages define the exposed interfaces of major services;
-* SM @virtual_ehr@ package defines the API of the virtual EHR component;
-* archetypes: archetypes might be assumed directly in some applications, e.g. a specialist peri-natal package might be partly based on a family of archetypes for this specialisation;
-* templates: both archetypes and templates will be used in the presentation layer of applications. Some will base the GUI code on them, while others will have either tool-generate code, or dynamically generate forms based on particular templates and archetypes.
+* RM и AM: в основном используется для создания ядра для обработки архетипов и шаблонов;
+* пакет RM @common.change_control@: предоставляет логику для версионированных сервисов, таких как ЭМК и демография
+* SM: различные служебные пакеты моделей, определяющие открытые интерфейсы большинства сервисов
+* пакет SM @virtual_ehr@ определяет API компонента виртуальной ЭМК 
+* архетипы: архетипы могут приниматься прямо в приложениях, например перинатальный пакет может быть частично основан на группе архетипов для этой специализации.
+* шаблоны: и архетипы и шаблоны будут использоваться в слое представления приложения. Некоторые будут лежать в основе графического интерфейса пользователя, другие будут иметь код, сгенерированный инструментами или динамически генерируемые формы, основанные на конкретных архетипах и шаблонах.
 
-In the future, an abstract persistence API and optimised persistence models (transformations of the existing RM models) are likely to be published by openEHR in order to help with the implementation of databases.
+В будущем, абстрактный API хранилища и оптимизированная модель (трансформация существующей RM модели) скорее всего будет опубликована openEHR для помощи в реализации баз данных.
+
+!38.png!

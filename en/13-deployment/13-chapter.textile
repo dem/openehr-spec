@@ -12,6 +12,8 @@ Previous sections have described the software architecture of the openEHR specif
 
 The same tiers can be used in large deployments, as shown in FIGURE 37, or simply as layers in single- machine applications.
 
+!37.png!
+
 FIGURE 38 illustrates an approximate mapping of major parts of the openEHR software architecture to the 5-tier scheme. Clearly where parts of the architecture are used will depend on various implementation choices; the mapping shown is therefore not definitive. Nevertheless, the principal use of parts of the architecture is likely to be similar in most systems, as follows:
 
 * RM and AM: mainly used to construct an archetype- and template-processing kernel;
@@ -22,3 +24,5 @@ FIGURE 38 illustrates an approximate mapping of major parts of the openEHR softw
 * templates: both archetypes and templates will be used in the presentation layer of applications. Some will base the GUI code on them, while others will have either tool-generate code, or dynamically generate forms based on particular templates and archetypes.
 
 In the future, an abstract persistence API and optimised persistence models (transformations of the existing RM models) are likely to be published by openEHR in order to help with the implementation of databases.
+
+!38.png!
