@@ -5,12 +5,14 @@ h3. 13.1 Архитектура 5-ти звенной системы
 Предыдущие секции описывали программную архитектуру спецификации openEHR. Здесь мы описываем как комплексная архитектура может быть использована для построения реальных систем. Общий архитектурный подход в любой системе openEHR может быть представлен 5ю слоями (т.е 5-ти звенная архитектура) Звенья системы:
 
 # **хранилище**: хранение и получение данных
-# **сервисы нижнего уровня**: включают в себя ЭМК, демографию, терминологию, архетипы, безопасность, record location, and so on. In this layer, the separation of the different services is transparent, and each service has a coarse-grained service interface.
-# **virtual EHR**: this tier is the middleware, and consists of a coherent set of APIs to the various back-end services providing access to the relevant services, thereby allowing user access to the EHR; including EHR, demographics, security, terminology, and archetype services. It also contains an archetype- and template-enabled kernel, the component responsible for creating and processing archetype-enabled data. In this tier, the separation of backend services is hidden, only the functionality is exposed. Other virtual clients are possible, consisting of APIs for other combinations of back-end services.
-# **application logic**: this tier consists of whatever logic is specific to an application, which might be a user application, or another service such as a query engine.
-# **presentation layer**: this layer consists of the graphical interface of the application, where applicable.
+# **сервисы нижнего уровня**: включают в себя ЭМК, демографию, терминологию, архетипы, безопасность, положение записей и так далее. В этом слое разделение различных сервисов прозрачно, и каждый сервис имеет крупнозернистый интерфейс.
+# **виртуальная ЭМК**: это слой промежуточный программный слой, и состоит из последовательного набора API к различным сервисам нижнего уровня, предоствляющим доступ к соответсвующим сервисам, тем самым давай доступ к ЭМК; включая сервисы ЭМК, демографии, безопасности, терминологии и архетипов. Он также содержит ядро с поддержкой архетипов и шаблонов, компонент ответственный за создание и обработку архетипизированных данных. В этом слое разделение сервисов нижнего уровня скрыто, предоставлена только функциональность. Возможны другие виртуальные клиенты, состоящие из API для других комбинаций сервисов нижнего уровня.
+# **логика приложения**: Этот слой включает логику, специфичную для приложения, которая может быть пользовательским приложением или другим сервисом, таким как движок запросов.
+# **слой представления**: этот слой состоит из графического интерфейса приложения, там где это применимо
 
-The same tiers can be used in large deployments, as shown in FIGURE 37, or simply as layers in single- machine applications.
+Такие же слои могут использованны в больших системах, как показано на рисунке 37, или в простом случае как в приложении на одной машине.
+
+Рисунок 38 показыает примерное соотношение главных частей программной архитектуры openEHR к 5-ти звенной схеме.
 
 FIGURE 38 illustrates an approximate mapping of major parts of the openEHR software architecture to the 5-tier scheme. Clearly where parts of the architecture are used will depend on various implementation choices; the mapping shown is therefore not definitive. Nevertheless, the principal use of parts of the architecture is likely to be similar in most systems, as follows:
 

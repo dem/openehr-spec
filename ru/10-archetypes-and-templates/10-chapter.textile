@@ -102,11 +102,12 @@ h3 10.6.4 Запросы
 
 Вторая главная информационная функция архетипов - поддержка запросов. Как описано выше и в следующей секции, пути извлеченные из архетипов являются основой для запроса к этим данным. Запросы определяются на AQL (Archetype Query Language),  который является синтезом языка SQL и XPath, выделенном из архетипов. Следующий пример запроса AQL означает "Получить значения индекса массы тела которые превышают значения 30кг/м2 для конкретного пациента":
 
-@SELECT o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value@
-@FROM EHR [uid=ehrUid]@
-@CONTAINS COMPOSITION c [openEHR-EHR-COMPOSITION.report.v1]@
-@CONTAINS OBSERVATION o[openEHR-EHR-OBSERVATION.body_mass_index.v1]@
-@WHERE o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value > 30@
+bc.
+SELECT o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value
+FROM EHR [uid=@ehrUid]
+CONTAINS COMPOSITION c [openEHR-EHR-COMPOSITION.report.v1]
+CONTAINS OBSERVATION o[openEHR-EHR-OBSERVATION.body_mass_index.v1]
+WHERE o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value > 30
 
 h2. 10.7 Архетипы в openEHR
 

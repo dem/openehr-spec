@@ -104,11 +104,12 @@ h3 10.6.4 Querying
 
 The second major computational function of archetypes is to support querying. As described above, and in the next section, the paths extracted from archetypes are the basis for queries into the data. Queries are defined in AQL (Archetype Query Language), which is essentially a synthesis of SQL and XPath style paths extracted from archetypes. The following is an example AQL query meaning “Get the BMI values which are more than 30 kg/m2 for a specific patient”:
 
-@SELECT o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value@
-@FROM EHR [uid=ehrUid]@
-@CONTAINS COMPOSITION c [openEHR-EHR-COMPOSITION.report.v1]@
-@CONTAINS OBSERVATION o[openEHR-EHR-OBSERVATION.body_mass_index.v1]@
-@WHERE o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value > 30@
+bc.
+SELECT o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value
+FROM EHR [uid=@ehrUid]
+CONTAINS COMPOSITION c [openEHR-EHR-COMPOSITION.report.v1]
+CONTAINS OBSERVATION o[openEHR-EHR-OBSERVATION.body_mass_index.v1]
+WHERE o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value > 30
 
 h2. 10.7 The openEHR Archteypes
 
