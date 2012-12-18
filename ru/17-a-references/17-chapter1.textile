@@ -1,0 +1,12 @@
+h1. A Литература
+
+# Beale T. Archetypes: Constraint-based Domain Models for Future-proof Information Systems. See http://www.deepthought.com.au/it/archetypes.html.
+# Beale T. Archetypes: Constraint-based Domain Models for Future-proof Information Systems.  OOPSLA 2002 workshop on behavioural semantics. Available at http://www.deep-thought.com.au.
+# Elstein AS, Shulman LS, Sprafka SA. Medical problem solving: an analysis of clinical reasoning. Cambridge, MA: Harvard University Press, 1978
+# ISO:IEC: Information Technology. Open Distributed Processing, Reference Model: Part 2:Foundations.
+# Kifer M, Lausen G, Wu J. Logical Foundations of Object-Oriented and FrameBased Languages. JACM May 1995. See See ftp://ftp.cs.sunysb.edu/pub/TechReports/kifer/flogic.pdf.
+# Maier M. Architecting Principles for Systems-of-Systems. Technical Report, University of Alabama in Huntsville. 2000. Available at http://www.infoed.com/Open/PAPERS/systems.htm
+# Rector A L, Nowlan W A, Kay S. Foundations for an Electronic Medical Record. The IMIA Yearbook of Medical Informatics 1992 (Eds. van Bemmel J, McRay A). Stuttgart Schattauer 1994.
+# Schloeffel P. (Editor). Requirements for an Electronic Health Record Reference Architecture. International Standards Organisation, Australia; Feb 2002; ISO TC 215/SC N; ISO/WD 18308.
+# CORBAmed document: Person Identification Service. (March 1999). (Authors?)
+# CORBAmed document: Lexicon Query Service. (March 1999). (Authors?)

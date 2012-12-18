@@ -1,6 +1,6 @@
-h1. Introduction
+h1. 1 Introduction
 
-h2. Purpose
+h2. 1.1 Purpose
 
 This document provides an overview of the openEHR architecture in terms of a model overview, key global semantics, deployment and integration architectures, relationship to published standards, and finally the approach to building Implementation Technology Specifications (ITSs). Semantics specific to each information, archetype and service model are described in the relevant model.
 
@@ -13,7 +13,7 @@ The intended audience includes:
 
 This document is the key technical overview of openEHR, and should be read before all other technical documents.
 
-h2. Status
+h2. 1.2 Status
 
 This document is under development, and is published as a proposal for input to standards processes
 and implementation works.
@@ -27,7 +27,7 @@ New versions are announced on "openehr-announce@openehr.org":mailto:openehr-anno
 
 Blue text indicates sections under active development.
 
-h2. Peer review
+h2. 1.3 Peer review
 
 Areas where more analysis or explanation is required are indicated with "to be continued" paragraphs like the following:
 

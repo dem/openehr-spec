@@ -15,7 +15,7 @@
    id="svg15588"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="20.svg">
+   sodipodi:docname="21.svg">
   <defs
      id="defs15590">
     <clipPath
@@ -167,7 +167,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -662,31 +662,32 @@
                                id="text38794"
                                transform="scale(1,-1)"
                                x="192.81563"
-                               y="-712.3515">
+                               y="-712.3515"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan38796"
                                  sodipodi:role="line"
                                  y="-712.3515"
                                  x="192.81563 199.49083 206.71382 213.93681 216.69872 223.1787 226.2384 231.80804 235.15659 241.27402"
-                                 style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">EHR Status</tspan>
+                                 style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR Status</tspan>
                               <tspan
                                  id="tspan38798"
                                  sodipodi:role="line"
                                  y="-564.57098"
                                  x="231.81601 239.03601 245.15045 254.03378 260.14822 266.26266 271.82932 274.62708 277.92682 280.72458 286.78625 292.9007"
-                                 style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">Compositions</tspan>
+                                 style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Compositions</tspan>
                               <tspan
                                  id="tspan38800"
                                  sodipodi:role="line"
                                  y="-652.711"
                                  x="216.1559 223.36594 226.15375 230.0471 235.60379 241.16048 244.49608 250.60057 254.49393"
-                                 style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">Directory</tspan>
+                                 style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Directory</tspan>
                               <tspan
                                  id="tspan38802"
                                  sodipodi:role="line"
                                  y="-563.07098"
                                  x="45.756233 52.986198 59.047859 65.172256 68.527786 72.366379 75.188034 81.312439 87.374092 90.729622 93.537346 99.661751 105.78615"
-                                 style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">Contributions</tspan>
+                                 style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Contributions</tspan>
                             </text>
                             <path
                                id="path38804"
@@ -887,25 +888,27 @@
                                id="text38882"
                                transform="scale(1,-1)"
                                x="67.955635"
-                               y="-661.29144">
+                               y="-661.29144"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan38884"
                                  sodipodi:role="line"
                                  y="-661.29144"
                                  x="67.955635 77.290077 87.393425"
-                                 style="font-size:13.97999954px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">EHR</tspan>
+                                 style="font-size:13.97999953999999967px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
                             </text>
                             <text
                                id="text38886"
                                transform="scale(1,-1)"
                                x="69.75563"
-                               y="-650.9115">
+                               y="-650.9115"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan38888"
                                  sodipodi:role="line"
                                  y="-650.9115"
                                  x="69.75563 75.743332 80.732033 83.713737 88.702431 90.685135"
-                                 style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">Ehr_id</tspan>
+                                 style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Ehr_id</tspan>
                             </text>
                             <path
                                id="path38890"
@@ -1211,13 +1214,14 @@
                                id="text39010"
                                transform="scale(1,-1)"
                                x="189.09563"
-                               y="-758.9115">
+                               y="-758.9115"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39012"
                                  sodipodi:role="line"
                                  y="-758.9115"
                                  x="189.09563 195.76984 202.99182 210.21382 212.97572 220.19772 225.76636 231.33499 236.85384 242.42247"
-                                 style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">EHR Access</tspan>
+                                 style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR Access</tspan>
                             </text>
                             <path
                                id="path39014"
@@ -1248,13 +1252,14 @@
                                id="text39024"
                                transform="scale(1,-1)"
                                x="156.57564"
-                               y="-701.55145">
+                               y="-701.55145"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39026"
                                  sodipodi:role="line"
                                  y="-701.55145"
                                  x="156.57564 160.45932 164.7258 168.99228 170.97379"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39028"
@@ -1285,13 +1290,14 @@
                                id="text39038"
                                transform="scale(1,-1)"
                                x="151.83563"
-                               y="-579.45148">
+                               y="-579.45148"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39040"
                                  sodipodi:role="line"
                                  y="-579.45148"
                                  x="151.83563 155.71931 159.98579 164.25227 166.23309"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39042"
@@ -1347,13 +1353,14 @@
                                id="text39062"
                                transform="scale(1,-1)"
                                x="205.59563"
-                               y="-579.69147">
+                               y="-579.69147"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39064"
                                  sodipodi:role="line"
                                  y="-579.69147"
                                  x="205.59563 209.47374 213.73466 217.99557 219.9388"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39066"
@@ -1384,13 +1391,14 @@
                                id="text39076"
                                transform="scale(1,-1)"
                                x="259.35562"
-                               y="-579.93146">
+                               y="-579.93146"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39078"
                                  sodipodi:role="line"
                                  y="-579.93146"
                                  x="259.35562 263.23373 267.49466 271.75558 273.69879"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39080"
@@ -1446,13 +1454,14 @@
                                id="text39100"
                                transform="scale(1,-1)"
                                x="88.595634"
-                               y="-576.75159">
+                               y="-576.75159"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39102"
                                  sodipodi:role="line"
                                  y="-576.75159"
                                  x="88.595634 92.473747 96.734657 100.99557 102.9388"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39104"
@@ -1558,25 +1567,27 @@
                                id="text39144"
                                transform="scale(1,-1)"
                                x="386.73563"
-                               y="-726.33148">
+                               y="-726.33148"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39146"
                                  sodipodi:role="line"
                                  y="-726.33148"
                                  x="386.73563 390.61374 394.87466 399.13556 401.0788"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <text
                                id="text39148"
                                transform="scale(1,-1)"
                                x="349.59564"
-                               y="-708.69147">
+                               y="-708.69147"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39150"
                                  sodipodi:role="line"
                                  y="-708.69147"
                                  x="349.59564 356.25589 361.81058 365.70193 369.03555 371.82138 377.37607"
-                                 style="font-size:9.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">Parties</tspan>
+                                 style="font-size:9.96000004000000061px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#96b5b8;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Parties</tspan>
                             </text>
                             <path
                                id="path39152"
@@ -1682,13 +1693,14 @@
                                id="text39192"
                                transform="scale(1,-1)"
                                x="318.51562"
-                               y="-725.67145">
+                               y="-725.67145"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39194"
                                  sodipodi:role="line"
                                  y="-725.67145"
                                  x="318.51562 322.39932 326.6658 330.93228 332.91309"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39196"
@@ -1719,13 +1731,14 @@
                                id="text39206"
                                transform="scale(1,-1)"
                                x="312.93564"
-                               y="-776.9715">
+                               y="-776.9715"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39208"
                                  sodipodi:role="line"
                                  y="-776.9715"
                                  x="312.93564 321.59842 328.26923 338.93604 346.26685 353.59763 358.26443 364.93524 372.26602 379.59683 382.93164 389.60245"
-                                 style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">Demographics</tspan>
+                                 style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">Demographics</tspan>
                             </text>
                             <path
                                id="path39210"
@@ -2101,13 +2114,14 @@
                                id="text39358"
                                transform="scale(1,-1)"
                                x="178.35564"
-                               y="-629.8515">
+                               y="-629.8515"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39360"
                                  sodipodi:role="line"
                                  y="-629.8515"
                                  x="178.35564 182.23375 186.49466 190.75557 192.69881"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39362"
@@ -2139,13 +2153,13 @@
                                transform="scale(1.0094457,-0.99064264)"
                                x="372.35843"
                                y="-611.39252"
-                               style="font-size:11.88771152px">
+                               style="font-size:11.88771151999999987px;-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39374"
                                  sodipodi:role="line"
                                  y="-611.39252"
                                  x="372.35843 376.35104 380.7467 385.1424 387.16434"
-                                 style="font-size:7.32857609px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:7.32857609000000032px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39376"
@@ -2176,31 +2190,33 @@
                                id="text39386"
                                transform="scale(1,-1)"
                                x="399.21564"
-                               y="-589.53149">
+                               y="-589.53149"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39388"
                                  sodipodi:role="line"
                                  y="-589.53149"
                                  x="399.21564 404.19803 406.17444 411.21265 413.19083 415.53262 420.57083 422.54724 425.06903 429.54742 431.58594 436.56833 441.55072 446.58893 449.06934 454.05173 457.02713 462.06534 464.52682 469.56503 472.50534 475.02713 480.00952 485.04773 489.52612"
-                                 style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">digital signature or hash</tspan>
+                                 style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">digital signature or hash</tspan>
                               <tspan
                                  id="tspan39390"
                                  sodipodi:role="line"
                                  y="-605.25177"
                                  x="399.69534 404.17554 409.15973 416.63693 424.11414 426.09235 428.57452 431.09634 436.08054 441.11874 446.10294 448.08115"
-                                 style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">commit audit</tspan>
+                                 style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">commit audit</tspan>
                             </text>
                             <text
                                id="text39392"
                                transform="scale(1,-1)"
                                x="93.035637"
-                               y="-775.17145">
+                               y="-775.17145"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39394"
                                  sodipodi:role="line"
                                  y="-775.17145"
                                  x="93.035637 101.07563 109.71323"
-                                 style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">EHR</tspan>
+                                 style="font-size:12px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">EHR</tspan>
                             </text>
                             <path
                                id="path39396"
@@ -2226,13 +2242,14 @@
                                id="text39404"
                                transform="scale(1,-1)"
                                x="472.41562"
-                               y="-577.83148">
+                               y="-577.83148"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39406"
                                  sodipodi:role="line"
                                  y="-577.83148"
                                  x="472.41562 474.39023 479.42844 484.40903 489.38965 494.37024"
-                                 style="font-size:9px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#ccab38;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial">legend</tspan>
+                                 style="font-size:9px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ccab38;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">legend</tspan>
                             </text>
                             <path
                                id="path39408"
@@ -2338,13 +2355,14 @@
                                id="text39448"
                                transform="scale(1,-1)"
                                x="147.81563"
-                               y="-749.25146">
+                               y="-749.25146"
+                               style="-inkscape-font-specification:Arial Bold;font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
                               <tspan
                                  id="tspan39450"
                                  sodipodi:role="line"
                                  y="-749.25146"
                                  x="147.81563 151.69374 155.95465 160.21558 162.1588"
-                                 style="font-size:6.96000004px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial Black;-inkscape-font-specification:Arial Bold">audit</tspan>
+                                 style="font-size:6.96000003999999972px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold;font-style:normal;font-stretch:normal">audit</tspan>
                             </text>
                             <path
                                id="path39452"
