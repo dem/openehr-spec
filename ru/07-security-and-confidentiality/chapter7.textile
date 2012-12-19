@@ -28,23 +28,22 @@ h2. 7.1 Требования
 
 В следующих разделах описана поддержка требований медицинской карты к основам безопасности и конфиденциальности в openEHR.
 
-h2. 7.2 Threats to Security and Privacy
+h2. 7.2 Угрозы Безопасности и Конфиденциальности
 
-Any model of how security and privacy are supported in the health record must be based on some notion of assumed threats. Without going into great detail, security threats assumed by openEHR include the following (here "inappropriate" means anything that is not or would not be consented to by the patient):
+Любая модель, такая как безопасность и конфиденциальность, поддерживаямая электронной историей болезни, должна основываться на понимании предполагаемых угроз. Не в даваясь в подробности, угрозы безопасност учтеные в openEHR включают в себя (здесь "неуместным" является все, на что не было или не будет согласия пациента):
 
-* human error in patient identification, leading to incorrect association of health data of one patient with another. Mis-identification of patients can cause personal data for one patient to go into the record of another patient (leading to privacy violations and possibly clinical errors), or into a new record rather than the existing one for the same patient (leading to two or more clinically incomplete records);
-* inappropriate access by health professionals or others in the physical care delivery environment (including e.g. any worker in a hospital) not involved in the current care of the patient;
-* inappropriate access by other persons known to the patient, e.g. a by family member;
-* inappropriate access of health data by corporate or other organisations e.g. for purposes of insurance discrimination;
-* malicious theft of or access to health data (e.g. of a celebrity or politician) for profit or other personal motives;
-* generic threats to data integrity and availability, such as viruses, worms, denial of service attacks etc.;
-* failures in software (due to bugs, incorrect configuration, interoperability failures etc.) causing corruption to data, or incorrect display or computation, resulting in clinical errors.
+* человеческие ошибки в идентификации пациентов, что приводит к неправильным объединение данных о состоянии здоровья одного пациента с другим. Неправельная идентификация может привести к тому, что данные одного пациента попадаут в медицинскую карту другого пациента (что приводит к нарушении конфиденциальности и, возможно, клинических ошибок), или созданию новой карты, вместо записи в существующую (что приведет к появлению двух и более неполных карт);
+* несанкционированный доступ со стороны врачей или других работников зравохранения (в том числе любой работник больницы) неучаствующим в уходе за пациентов в данный момент;
+* несанеционированный доступ других лиц, знающих пациента, например, челенов семьи;
+* несанкционированный доступ к медицинским данным корпораций или других организаций, напрмер, в цели страховой дескриминации;
+* вредоносная кража или доступ к медицинским данным (например, знаминитостей или политикам) с целью получения прибыли или иных личных побуждений;
+* общие угрозы целостности данных и их доступности, такие как вирусы, черви, атаки отказа в обслуживании;
+* сбои в програмном обеспечении (в результате ошибок, неправельной конфигурации, ошибки взаимодействия и т.д.) вызывающие искажение данных или неправельное отображение иди вычисления в результате критических проблем.
 
-A key principle with respect to the design of mechanisms supporting security, confidentiality and integrity has to be kept in mind: the likelihood of any given mode of targeted inappropriate access is proportional to the perceived value of the information and inversely proportional to the cost of access.
+Главное при проектирвоании дизайн мезанизмов поддержки безопасности, конфиденциальности и целостности данных нужно иметь ввиду: вероятность того или иного метода несанционированного доступа пропрорционально ценности информации и обратно пропорционально стоимости доступа.
+Перефразиру писмо в БАМ Росс Анедрсона[7.2] в безопасности клинических данный, для получения доступа, преступник попробует найти простейший, дешевый и быстры способ, что в большенстве случаев будет подкуп или кража с взломом, чем технологии в стиле Джеймса Бонда. openEHR позволяет использовать эти принципы путем относительно простых механизмов, которые дешевы в реализации, но делает злоупотребелене довольно сложным, без ущерба для доступности. 
 
-To paraphrase Ross Anderson's BMA paper[1] on health data security, for a given access, the perpretrator will try to find the simplest, cheapest and quickest method, which is more likely to be bribery or burglary than James Bond-inspired technology. openEHR makes use of this principle by providing some relatively simple mechanisms that are cheap to implement but can make misuse quite difficult, without compromising availability.
-
-fn1. see e.g. Ross Anderson - "Security in Clinical Information Systems" available at "http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html":http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html.
+fn7.2. см. например, Ross Anderson - "Security in Clinical Information Systems" по адресу "http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html":http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html.
 
 h2. 7.3 Solutions Provided by openEHR
 

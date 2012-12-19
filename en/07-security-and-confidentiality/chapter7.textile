@@ -1,6 +1,6 @@
-h1. Security and Confidentiality 
+h1. 7 Security and Confidentiality 
 
-h2. Requirements
+h2. 7.1 Requirements
 
 **Privacy, Confidentiality and Consent**
 Privacy (the right to limit who sees the personal data) and confidentiality (the obligation of others to respect the privacy of disclosed data) are primary concerns of many consumers with respect to eHealth systems. A widely accepted principle is that information provided (either directly or due to observation or testing of specimens etc.) in confidence by a patient to health professionals during an episode of care should only be passed on or otherwise become available to other parties if the patient agrees; put more simply: __data sharing must be controlled by patient consent__. A more complex subrequirement for some patients is allowing differential access to __parts__ of their health record, for example, relatively open access rights to most of the health record, but limited access to sexual or mental health items. The interrelatedness of health information can make this difficult. For example the medication list will often give away sensitive conditions even if the diagnosis is hidden, yet is needed for any safe treatment, and many health professionals would see the unavailability of current medications(and allergies) information as highly problematic for giving even basic care.
@@ -27,7 +27,7 @@ Usability of security and privacy mechanisms is a key requirement of a health re
 
 The following sections describe support in openEHR for the main security and privacy requirements of EHRs.
 
-h2. Threats to Security and Privacy
+h2. 7.2 Threats to Security and Privacy
 
 Any model of how security and privacy are supported in the health record must be based on some notion of assumed threats. Without going into great detail, security threats assumed by openEHR include the following (here "inappropriate" means anything that is not or would not be consented to by the patient):
 
@@ -45,15 +45,15 @@ To paraphrase Ross Anderson's BMA paper[1] on health data security, for a given 
 
 fn1. see e.g. Ross Anderson - "Security in Clinical Information Systems" available at "http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html":http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html.
 
-h2. Solutions Provided by openEHR
+h2. 7.3 Solutions Provided by openEHR
 
-h3. Overview
+h3. 7.3.1 Overview
 
 Many of the concrete mechanisms relating to security and privacy are found in system deployments rather than in models such as openEHR, particularly the implementation of authentication, access control, and encryption. The openEHR specifications and core component implementations do not explicitly define many concrete mechanisms since there is great variability in the requirements of different sites - secure LAN deployments many require minimal security inside, whereas web-accessible ealth record servers are likely to have quite different requirements. What openEHR does is to support some of the key requirements in a flexible enough way that deployments with substantially different requirements and configurations can nevertheless implement the basic principles in a standard way. FIGURE 21 illustrates the main security measures directly specified by the openEHR architecture. These include EHR/demographic separation and an EHR-wide access control object. At the level of versioned objects, commit audits (mandatory), digital signatures and hashes are available. The following subsections describe these features in more detail.
 
 !fig21.png(FIGURE 21)!
 
-h3. Security Policy
+h3. 7.3.2 Security Policy
 
 In and of itself, the openEHR EHR imposes only a minimal security policy profile which could be regarded as necessary, but generally not sufficient for a deployed system (i.e. other aspects would still need to be implemented in layers whose semantics are not defined in openEHR). The following policy principles are embodied in openEHR.
 
@@ -84,7 +84,7 @@ As Anderson points out in the BMA study, policy elements are also needed for gua
 
 The following sections describe how openEHR supports the first list of policy objectives.
 
-h3. Integrity
+h3. 7.3.3 Integrity
 
 **Versioning**
 The most basic security-related feature of openEHR is its support for data integrity. This is mainly provided by the versioning model, specified in the @change_control@ package in the Common Information Model, and in the Extract Information Model. Change-set based versioning of all information in the EHR and demographic services constitutes a basic integrity measure for information, since no content is ever physically modified, only new versions are created. All logical changes and deletions as well as additions are therefore physically implemented as new Versions rather than changes to existing information items. Clearly the integrity of the information will depend on the quality of the implementation; however, the simplest possible implementations (1 Version = 1 copy) can provide very good safety due to being write-once systems.
@@ -100,7 +100,7 @@ One of the benefits of digitally signing relatively small pieces of the EHR (sin
 
 fn1. IETF RFC 2440 - "http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt":http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt
 
-h3. Anonymity
+h3. 7.3.4 Anonymity
 
 As described above in section 6.1, one of the features of the openEHR EHR is a separation of EHR (clinical and administrative) information and demographic information. This mainly relates to references to the patient rather than to provider entities, since the latter are usually publicly known. A special kind of object known as @PARTY_SELF@ in openEHR is used to refer to the subject in the EHR. The only information contained in a @PARTY_SELF@ instance is an optional external reference. The openEHR EHR can be configured to provide 3 levels of separation by controlling whether and where this external identifier is actually set in @PARTY_SELF@ instances, as follows:
 
@@ -110,7 +110,7 @@ As described above in section 6.1, one of the features of the openEHR EHR is a s
 
 This simple mechanism provides a basic protection against certain kinds of information theft or hacking if used properly. In the most secure situation, a hacker has to steal not just EHR data but also separate demographic records and an identity cross reference database, both of which can be located on different machines (making burglary harder). The identity cross-reference database would be easy to encrypt or protect by other security mechanisms.
 
-h2. Access Control
+h2. 7.4 Access Control
 
 **Overview**
 Access control is completely specified in an openEHR EHR in the @EHR_ACCESS@ object for the EHR. This object acts as a gateway for all information access, and any access decision must be made based on the policies and rules it contains. One of the problems with defining the semantics of the EHR Access object is that there is currently no published formal, proven model of access control for shared health information. Various efforts underway include the CEN EN13606 part 4 work, the ISO PMAC (Privilege Management and Access Control) work being done in TC/215 based on the generic security standard ISO/IEC 17799. Undoubtedly experimental and even some limited production health information security implementations exist. In reality however, no large-scale shared EHR deployments exist, and so security solutions to date are still developmental.
