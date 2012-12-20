@@ -31,6 +31,9 @@ end
 skip_converting = ARGV.include?('--skip-img')
 ARGV.delete("--skip-img")
 
+image_magick_converting = ARGV.include?('--im')
+ARGV.delete("--im")
+
 format = ENV['FORMAT'] || 'mobi'
 puts "using .#{format} (you can change it via FORMAT environment variable. try 'mobi' or 'epub')"
 
@@ -47,6 +50,15 @@ ARGV.each do |lang|
       system("inkscape #{svg_image} --export-png=#{svg_image.gsub('svg', 'png')} --export-area-drawing --export-dpi=180")
     end
   end
+  
+  if image_magick_converting
+    Dir.mkdir("images/#{lang}/png/") unless Dir.exist?("images/#{lang}/png/")
+
+    Dir.glob("images/#{lang}/svg/*.svg") do |svg_image|
+      system("convert #{svg_image} #{svg_image.gsub('svg', 'png')}")
+    end
+  end
+  
 
   book_content = %(<html xmlns="http://www.w3.org/1999/xhtml"><head><title>openEHR Architecture Overview</title></head><body>)
   dir = File.expand_path(File.join(File.dirname(__FILE__), lang))
