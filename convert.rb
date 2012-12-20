@@ -20,11 +20,9 @@ title_ru = doc_ru.xpath('html/head/title')[0].text
 body_en = doc_en.xpath('html/body')[0]
 body_ru = doc_ru.xpath('html/body')[0]
 
-#Заголовок
-file_en_ru.write('<html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>title</title></head><body>')
+file_en_ru.write('<!doctype html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>title</title><style>img{width:99%;} table{width:100%} td{width:50%; word-wrap:break-word;} p,a,h1,h2,h3,h4,h5,h6 {word-wrap:break-word;}</style></head><body>')
 
-#таблица
-file_en_ru.write('<table>')
+file_en_ru.write('<table style="width:100%;">')
 
 en_position = 0
 ru_position = 0
@@ -37,14 +35,12 @@ body_en.children.each do |en_child|
   file_en_ru.write(body_ru.children[ru_position])
   file_en_ru.write('</td>')
   file_en_ru.write('</tr>')
+  file_en_ru.write "\n"
+  file_en_ru.write "\n"
   
   en_position += 1
   ru_position += 1
 end
-
-
-
-
 
 
 file_en_ru.write('</table>')
