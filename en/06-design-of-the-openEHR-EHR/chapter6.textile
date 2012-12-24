@@ -87,7 +87,7 @@ All of these statement types map directly to one of the openEHR Entry types in a
 
 Further details on the openEHR model clinical information are given in the EHR IM document, Entry Section.
 
-h2. `6.5` Managing Interventions
+h2. 6.5 Managing Interventions
 
 A key part of the investigation process shown in FIGURE 17, and indeed healthcare in general, is intervention. Specifying and managing interventions (whether the simplest prescriptions or complex surgery and therapy) is a hard problem for information systems because it is in “future time” (meaning that intervention activities have to be expressed using branching/looping time specifications, not the simple linear time of observations), unexpected events can change things (e.g. patient reaction to drugs), and the status of a given intervention can be hard to track, particularly in distributed systems. However, from the health professional’s point of view, almost nothing is more basic than wanting to find out: what medications is this patient on, since when, and what is the progress?
 
