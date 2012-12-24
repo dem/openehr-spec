@@ -49,7 +49,7 @@ h3. 7.3.1 Overview
 
 Many of the concrete mechanisms relating to security and privacy are found in system deployments rather than in models such as openEHR, particularly the implementation of authentication, access control, and encryption. The openEHR specifications and core component implementations do not explicitly define many concrete mechanisms since there is great variability in the requirements of different sites - secure LAN deployments many require minimal security inside, whereas web-accessible ealth record servers are likely to have quite different requirements. What openEHR does is to support some of the key requirements in a flexible enough way that deployments with substantially different requirements and configurations can nevertheless implement the basic principles in a standard way. FIGURE 21 illustrates the main security measures directly specified by the openEHR architecture. These include EHR/demographic separation and an EHR-wide access control object. At the level of versioned objects, commit audits (mandatory), digital signatures and hashes are available. The following subsections describe these features in more detail.
 
-!fig21.png(FIGURE 21)!
+!21.png(FIGURE 21)!
 
 h3. 7.3.2 Security Policy
 
@@ -94,7 +94,7 @@ The possibility exists within an openEHR EHR to digitally sign each Version in a
 The signing of data in a versioning system acts as an integrity check (the digest performs this function), an authentication measure (the signature performs this function), and also a non-repudiation measure. To guard against hacking of the versioned persistence layer itself, signatures can be forwarded to a trusted notarisation service. A fully secure system based on digital signing also requires certified public keys, which may or may not be available in any given environment. 
 One of the benefits of digitally signing relatively small pieces of the EHR (single Versions) rather than the whole EHR or large sections of it is that the integrity of items is more immune to localisedrepository corruptions.
 
-!fig22.png(FIGURE 22)!
+!22.png(FIGURE 22)!
 
 fn1. IETF RFC 2440 - "http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt":http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt
 

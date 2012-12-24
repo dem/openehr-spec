@@ -55,7 +55,7 @@ h3. 7.3.1 Обзор
 OpenEHR поддерживает ключевые требования в состоянии, позволяющем создавать систему в соответствии существенно разным тербованиями и конфигурациями, но тем не менее реализовывая  основные принципы стандартным способом. Рисунок 21 иллюстрирует основные меры безопасности, прямо указанных в архитектуре openEHR. Они включают в себя разделение электронной карты/ демографии, а так же всесистемного контроля доступа к медицинской карте. На уровне версий объектов, проверок внесённых изменений (обязательный) имеются цифровых подписи и хэши. В следующих подразделах описываются эти функции более подробно.
 
 
-!fig21.png(Рисунок 21)!
+!21.png(Рисунок 21)!
 
 h3. 7.3.2 Политика безопасности
 
@@ -100,7 +100,7 @@ The possibility exists within an openEHR EHR to digitally sign each Version in a
 The signing of data in a versioning system acts as an integrity check (the digest performs this function), an authentication measure (the signature performs this function), and also a non-repudiation measure. To guard against hacking of the versioned persistence layer itself, signatures can be forwarded to a trusted notarisation service. A fully secure system based on digital signing also requires certified public keys, which may or may not be available in any given environment. 
 One of the benefits of digitally signing relatively small pieces of the EHR (single Versions) rather than the whole EHR or large sections of it is that the integrity of items is more immune to localisedrepository corruptions.
 
-!fig22.png(FIGURE 22)!
+!22.png(FIGURE 22)!
 
 fn1. IETF RFC 2440 - "http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt":http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt
 

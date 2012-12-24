@@ -43,13 +43,13 @@ For example, the local codes in an “Apgar result”[1]  archetype could contai
 
 fn1.  Apgar is a basic measure of health of a newborn, taken 2 or 3 times after delivery, in the form of a 0-10 score.
 
-p=. !fig34.png!
+p=. !34.png!
 
 p=. *FIGURE  34*  Apgar archetype definition (extract)
 
 The second use of local codes is as values. In FIGURE 34, the @ELEMENT@ node identified by code [at0005] has as its value constraint an @ORDINAL@ type whose values can be 0, 1, or 2. Each of these values is coded by the codes [at0006], [at0007], and [at0008]. An extract of the archetype ontology showing these terms is shown in FIGURE 35.
 
-p=. !fig35.png!
+p=. !35.png!
 
 p=. *FIGURE  35*  Apgar archetype ontology section (extract)
 
@@ -73,7 +73,7 @@ h2. 12.5 Querying using External Terminologies
 
 Querying through EHR data is frequently cited to be the major utility of terminology with respect to health information. With the mappings defined in archetypes, a number of approaches are possible, however the semantics of the intended query need to be understood first. Consider a query for “adenocarcinoma” on a patient record. SNOMED-CT includes 63 terms beginning with “adenocarcinoma” (and 171 terms which include the word as a secondary part of the phrase), some as children of a common parent. Nevertheless, the terms do not __all__ have a single common parent; a choice has to be made of which terms correspond to the intent of the query. If it is to find any previous diagnosis of “adenocarcinoma”, then at least the terms of the form “adenocarcinoma of lung” [snomed-ct::254626006], “... of liver” have to be included. These are within the “clinical finding” hierarchy, so the use of these latter terms should ensure that matches are not made with other uses of the same terms in the record, e.g. “fear of adenocarcinoma” or “minimal risk of adenocarcinoma”. Such correct matching is completely dependent upon the correct use of SNOMED-CT terms in the first place by the software application and/or user creating the data. It is easy to imagine an application that saves data (including openEHR data) in the form of two name/value pairs: {“principal diagnosis”, [snomed-ct::35917007] (“adenocarcinoma”)} and {“site”, “lung”}. Querying using “adenocarcinoma of lung” [snomedct::254626006] will fail, even though this is exactly the meaning of the data. The data are not wrong as such, but the lesson is clear: +coding of data and code use in queries must be governed by common models+, otherwise there is no hope of reliably processing the data.
 
-p=. !fig36.png!
+p=. !36.png!
 
 p=. *FIGURE  36*  Archetype Constraint Binding
 
