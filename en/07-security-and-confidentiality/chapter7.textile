@@ -39,9 +39,7 @@ Any model of how security and privacy are supported in the health record must be
 * generic threats to data integrity and availability, such as viruses, worms, denial of service attacks etc.;
 * failures in software (due to bugs, incorrect configuration, interoperability failures etc.) causing corruption to data, or incorrect display or computation, resulting in clinical errors.
 
-A key principle with respect to the design of mechanisms supporting security, confidentiality and integrity has to be kept in mind: the likelihood of any given mode of targeted inappropriate access is proportional to the perceived value of the information and inversely proportional to the cost of access.
-
-To paraphrase Ross Anderson's BMA paper[1] on health data security, for a given access, the perpretrator will try to find the simplest, cheapest and quickest method, which is more likely to be bribery or burglary than James Bond-inspired technology. openEHR makes use of this principle by providing some relatively simple mechanisms that are cheap to implement but can make misuse quite difficult, without compromising availability.
+A key principle with respect to the design of mechanisms supporting security, confidentiality and integrity has to be kept in mind: the likelihood of any given mode of targeted inappropriate access is proportional to the perceived value of the information and inversely proportional to the cost of access. To paraphrase Ross Anderson's BMA paper[1] on health data security, for a given access, the perpretrator will try to find the simplest, cheapest and quickest method, which is more likely to be bribery or burglary than James Bond-inspired technology. openEHR makes use of this principle by providing some relatively simple mechanisms that are cheap to implement but can make misuse quite difficult, without compromising availability.
 
 fn1. see e.g. Ross Anderson - "Security in Clinical Information Systems" available at "http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html":http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html.
 

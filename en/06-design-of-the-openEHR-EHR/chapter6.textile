@@ -20,8 +20,7 @@ As has been shown, the openEHR information models define information at varying 
 * +Party+ - various subtypes including Actor, Role, etc. representing a demographic entity with identity and contact details (see type @PARTY@ and subtypes in Demographic IM);
 * +EHR Extract+ - the transmission unit between EHR systems, containing a serialisation of EHR, demographic and other content (see type @EHR_EXTRACT@ in EHR Extract IM).
 
-All persistent openEHR EHR, demographic and related content is found within top-level information
-structures. Most of these are visible in the following figures.
+All persistent openEHR EHR, demographic and related content is found within top-level information structures. Most of these are visible in the following figures.
 
 h2. 6.3 The EHR
 
@@ -40,6 +39,7 @@ In this figure, the parts of the EHR are as follows:
 * __Contributions__: the change-set records for every change made to the health record; each Contribution references a set of one or more Versions of any of the versioned items in the record that were committed or attested together by a user to an EHR system.
 
 The internal structure of the Composition along with the Directory object correspond closely to the levels in internationally agreed models of health information such as the CEN EN13606 and HL7 CDA standards.
+
 The logical structure of a typical Composition is shown in more detail in FIGURE 15. In this figure, the various hierarchical levels from Composition to the data types are shown in a typical arrangement. The 21 data types provide for all types of data needed for clinical and administrative recording.
 
 p=. !fig15.png!
@@ -87,7 +87,7 @@ All of these statement types map directly to one of the openEHR Entry types in a
 
 Further details on the openEHR model clinical information are given in the EHR IM document, Entry Section.
 
-h2. 6.5 Managing Interventions
+h2. `6.5` Managing Interventions
 
 A key part of the investigation process shown in FIGURE 17, and indeed healthcare in general, is intervention. Specifying and managing interventions (whether the simplest prescriptions or complex surgery and therapy) is a hard problem for information systems because it is in “future time” (meaning that intervention activities have to be expressed using branching/looping time specifications, not the simple linear time of observations), unexpected events can change things (e.g. patient reaction to drugs), and the status of a given intervention can be hard to track, particularly in distributed systems. However, from the health professional’s point of view, almost nothing is more basic than wanting to find out: what medications is this patient on, since when, and what is the progress?
 
