@@ -1,0 +1,80 @@
+p=. !0.png!
+
+h2. Copyright Notice
+
+© Copyright openEHR Foundation 2001 - 2008
+All Rights Reserved
+
+# This document is protected by copyright and/or database right throughout the world and is owned by the openEHR Foundation.
+# You may read and print the document for private, non-commercial use.
+# You may use this document (in whole or in part) for the purposes of making presentations and education, so long as such purposes are non-commercial and are designed to comment on, further the goals of, or inform third parties about, openEHR.
+# You must not alter, modify, add to or delete anything from the document you use (except as is permitted in paragraphs 2 and 3 above).
+# You shall, in any use of this document, include an acknowledgement in the form: “© Copyright openEHR Foundation 2001-2008. All rights reserved. www.openEHR.org”
+# This document is being provided as a service to the academic community and on a non-commercial basis. Accordingly, to the fullest extent permitted under applicable law, the openEHR Foundation accepts no liability and offers no warranties in relation to the materials and documentation and their content.
+# If you wish to commercialise, license, sell, distribute, use or otherwise copy the materials and documents on this site other than as provided for in paragraphs 1 to 6 above, you must comply with the terms and conditions of the openEHR Free Commercial Use Licence, or enter into a separate written agreement with openEHR Foundation covering such activities. The terms and conditions of the openEHR Free Commercial Use Licence can be found at http://www.openehr.org/free_commercial_use.htm
+
+h2. Amendment Record
+
+<table style="width:100%;">
+<tr>
+<th>Issue</th>
+<th>Details</th>
+<th>Raiser</th>
+<th>Completed</th>
+</tr>
+<tr><td colspan="4" style="color:white; background-color:blue; text-align:center; font-weight:bold">R E L E A S E 1.0.2</td></tr>
+<tr>
+<td style="text-align:center; width: 10%">1.1.1</td>
+<td>
+*==SPEC-249.==* Paths and locators minor errors in Architecture Overview and Common IM. Typos corrected in sections 9.2.2
+and 11.3.
+*==SPEC-257:==* Correct minor typos and clarify text. Section 9.2.1 para 1 line 2: with --> within.
+*==SPEC-284:==* Correct inconsistencies in naming of term_definitions,
+constraint_definitions, term_bindings,
+constraint_bindings attributes in XML-schema and specifications.
+</td>
+<td style="text-align:center;  width: 15%">
+C Ma,<br> T Beale<br>  R Chen<br>  C Ma, <br> R Chen, <br> T Cook <br> A Torrisi 
+</td>
+<td style="text-align:center;  width: 15%">
+13 Nov 2008
+</td>
+</tr>
+<tr><td colspan="4" style="color:white; background-color:blue; text-align:center; font-weight:bold">R E L E A S E 1.0.1</td></tr>
+<tr>
+<td style="text-align:center;  width: 10%">1.1</td>
+<td>
+*==CR-000200.==* Correct package names in RM diagram.
+*==CR-000130:==* Correct security details in LOCATABLE and ARCHETYPED classes.
+*==CR-000203:==* Release 1.0 explanatory text improvements.
+Improved path explanation. Slight re-ordering of main headings. 
+<br>
+Path shortcuts.
+Added configuration management and versioning material from Common IM.
+Added section on ontological landscape.
+Added section on aims.
+Added section on systems architectures.
+Added section on security.
+Added section on system integration.
+Added section on terminology.
+</td>
+<td style="text-align:center">
+D Lloyd <br> T Beale <br> T Beale,<br> G Grieve,<br> T Shannon,<br> H vander<br> Linder<br> H Frankel<br> 
+T Beale<br> T Beale<br> T Beale<br> T Beale<br> T Beale<br> T Beale<br> T Beale,<br> S Heard
+</td>
+<td style="text-align:center;"> 12 Apr 2007</td>
+</tr>
+<tr><td colspan="4" style="color:white; background-color:purple; text-align:center; font-weight:bold">R E L E A S E 1.0.1</td></tr>
+<tr>
+<td style="text-align:center">1.1</td>
+<td>
+Initial Writing - content taken from Roadmap document.
+*==CR-000147.==* Make DIRECTORY Re-usable
+*==CR-000167.==* Move AOM description package to resource pack-
+age in Common IM.
+*==CR-000185:==* Improved EVENT model.
+</td>
+<td style="text-align:center">T Beale</td>
+<td style="text-align:center">29 Jan 2006</td>
+</tr>
+</table>

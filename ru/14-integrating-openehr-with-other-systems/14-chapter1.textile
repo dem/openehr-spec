@@ -21,19 +21,19 @@ h2. 14.2 Интеграционные архетипы
 Вторая категория архетипов - это "интеграционные" архетипы. Они характеризуются следующим:
 
 * они основаны на тех же классах высокого уровня (@COMPOSITION@, @SECTION@ и т.д.), но используют подтип класса Entry @GENERIC_ENTRY@ (смотри Информационную модель EHR);
-* they are designed to mimic the structure of legacy or existing data or messages; the design effort therefore is completely different, and is more likely to be done by IT or other technical staff who are familiar with the structures of the incoming data;
-* there is one integration archetype per message type or identifiable source data that makes sense as a transaction to the EHR.
+* они разработаны, чтобы имитировать структуру  существующих данных или сообщений; усилия на разработку совершенно другие и скорее всего это будет сделано IT специалистами или другими техническими сотрудниками, которые знакомы со структурой поступающих данных;
+* один интеграционный архетип каждого типа сообщений или идентифицыруемый источник данных, который имеет смысл как транзакция в EHR.
 
-In the data integration environment, “designed” archetypes always define the target structures, coding and other semantics of data, while “integration” archetypes provide the means mapping of external data into the openEHR environment.
+В условиях интеграции данных, "разработанные" архетипы всегда определяют целевые структуры, кодирования и семантику данных, в то время как «интеграционные» архетипы обеспечивают средства отображения внешних данных в openEHR.
 
-h2. 14.3 Data Conversion Architecture
+h2. 14.3 Архитектура преобразования данных
 
-The integration archetype-based strategy for importing data into an openEHR system, shown in FIGURE 39, consists of two steps.
+Интеграция архетипо-ориентированных стратегий для импорта данных в openEHR систему, показанный на рисунке 39, состоит из двух шагов.
 
 p=. !39.png!
 
 p=. *FIGURE 39* Data Integration using openEHR
 
-Firstly, data are converted from their original syntactic format into openEHR @COMPOSITION/SECTION/GENERIC_ENTRY@ structures, shown in the openEHR integration switch. Most of the data will appear in the @GENERIC_ENTRY@ part, controlled by an integration archetype designed to mimic the incoming structure (such as an HL7v2 lab message) as closely as possible; @FEEDER_AUDIT@ structures are used to contain integration meta-data. The result of this step is data that are expressed in the openEHR type system (i.e. as instances of the openEHR reference model), and are immediately amenable to processing with normal openEHR software.
+Во-первых, данные преобразуются из исходного синтаксического формата в openEHR COMPOSITION/SECTION/GENERIC_ENTRY структуры, показанной на переключателе интеграции openEHR. Большинство данных появится в GENERIC_ENTRY части, контролируемая интеграционным архетипом предназначеным для имитации входящей структуры (таких, как HL7v2 лабораторное сообщение) как можно ближе; структура FEEDER_AUDIT используются для хранения интеграции мета-данных. Результатом этого шага являются данныме, которые выражаются в системе типов openEHR (т.е. как экземпляры эталонной модели openEHR), и сразу же поддаются обработке с нормальным программным обеспечением openEHR.
 
-In the second step, semantic transformation is effected, by the use of mappings between integration and designed archetypes. Such mappings are created by archetype authors using tools. The mapping rules are the key to defining structural transformations, use of terminological codes, and other changes. Serious challenges of course remain in the business of integrating heterogeneous systems; some of these are dealt with in the Common IM document sections on Feeder systems.
+На втором этапе, семантические преобразования осуществляется, с помощью сопоставления между интеграцией и архетипами. Такие отображения созданы авторами  архетипов с помощью инструментов. Правила отображения являются ключом к определяющим структуру преобразования, использования терминологических кодов и другие изменения. Серьезные проблемы, конечно, остаются в бизнес-интеграции гетерогенных систем, некоторые из них рассматриваются в разделах документа Common IM на фидерных систем.
