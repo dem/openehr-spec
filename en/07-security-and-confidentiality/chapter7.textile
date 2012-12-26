@@ -39,9 +39,7 @@ Any model of how security and privacy are supported in the health record must be
 * generic threats to data integrity and availability, such as viruses, worms, denial of service attacks etc.;
 * failures in software (due to bugs, incorrect configuration, interoperability failures etc.) causing corruption to data, or incorrect display or computation, resulting in clinical errors.
 
-A key principle with respect to the design of mechanisms supporting security, confidentiality and integrity has to be kept in mind: the likelihood of any given mode of targeted inappropriate access is proportional to the perceived value of the information and inversely proportional to the cost of access.
-
-To paraphrase Ross Anderson's BMA paper[1] on health data security, for a given access, the perpretrator will try to find the simplest, cheapest and quickest method, which is more likely to be bribery or burglary than James Bond-inspired technology. openEHR makes use of this principle by providing some relatively simple mechanisms that are cheap to implement but can make misuse quite difficult, without compromising availability.
+A key principle with respect to the design of mechanisms supporting security, confidentiality and integrity has to be kept in mind: the likelihood of any given mode of targeted inappropriate access is proportional to the perceived value of the information and inversely proportional to the cost of access. To paraphrase Ross Anderson's BMA paper[1] on health data security, for a given access, the perpretrator will try to find the simplest, cheapest and quickest method, which is more likely to be bribery or burglary than James Bond-inspired technology. openEHR makes use of this principle by providing some relatively simple mechanisms that are cheap to implement but can make misuse quite difficult, without compromising availability.
 
 fn1. see e.g. Ross Anderson - "Security in Clinical Information Systems" available at "http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html":http://www.cl.cam.ac.uk/users/rja14/policy11/policy11.html.
 
@@ -51,7 +49,7 @@ h3. 7.3.1 Overview
 
 Many of the concrete mechanisms relating to security and privacy are found in system deployments rather than in models such as openEHR, particularly the implementation of authentication, access control, and encryption. The openEHR specifications and core component implementations do not explicitly define many concrete mechanisms since there is great variability in the requirements of different sites - secure LAN deployments many require minimal security inside, whereas web-accessible ealth record servers are likely to have quite different requirements. What openEHR does is to support some of the key requirements in a flexible enough way that deployments with substantially different requirements and configurations can nevertheless implement the basic principles in a standard way. FIGURE 21 illustrates the main security measures directly specified by the openEHR architecture. These include EHR/demographic separation and an EHR-wide access control object. At the level of versioned objects, commit audits (mandatory), digital signatures and hashes are available. The following subsections describe these features in more detail.
 
-!fig21.png(FIGURE 21)!
+!21.png(FIGURE 21)!
 
 h3. 7.3.2 Security Policy
 
@@ -96,7 +94,7 @@ The possibility exists within an openEHR EHR to digitally sign each Version in a
 The signing of data in a versioning system acts as an integrity check (the digest performs this function), an authentication measure (the signature performs this function), and also a non-repudiation measure. To guard against hacking of the versioned persistence layer itself, signatures can be forwarded to a trusted notarisation service. A fully secure system based on digital signing also requires certified public keys, which may or may not be available in any given environment. 
 One of the benefits of digitally signing relatively small pieces of the EHR (single Versions) rather than the whole EHR or large sections of it is that the integrity of items is more immune to localisedrepository corruptions.
 
-!fig22.png(FIGURE 22)!
+!22.png(FIGURE 22)!
 
 fn1. IETF RFC 2440 - "http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt":http://www.ietf.org/internet-drafts/draft-ietf-openpgp-rfc2440bis-18.txt
 

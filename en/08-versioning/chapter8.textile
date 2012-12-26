@@ -4,7 +4,7 @@ h2. 8.1 Overview
 
 Version control is an integral part of the openEHR architecture. An openEHR repository for EHR or demographic information is  managed as a change-controlled collection of “version containers” (modelled by the @VERSIONED_OBJECT<T>@ class in the @common.change_control@ package), each containing the versions of a top-level content structure (such as a Composition or Party) as it changes over time. A version-controlled top-level content structure is visualised in FIGURE 23.
 
-p=. !fig23.png!
+p=. !23.png!
 
 p=. *FIGURE 23* Version-control structures
 
@@ -25,7 +25,7 @@ The general organisation of a repository of complex information items such as a 
 
 In a software or document repository, the CIs are files arranged in the directories of the file system; in an EHR based on openEHR, they are Compositions, the optional Folder structure, Parties in the demographic service and so on. Contributions are made to the repository by users. This general abstraction is visualised in FIGURE 24.
 
-p=. !fig24.png!
+p=. !24.png!
 
 p=. *FIGURE 24* General Structure of a Controlled Repository
 
@@ -55,7 +55,7 @@ Properly managing changes to the repository requires two mechanisms. The first, 
 
 A typical sequence of changes to a repository is illustrated in FIGURE 25.
 
-p=. !fig25.png!
+p=. !25.png!
 
 p=. *FIGURE 25* Contributions to the Repository (delta form)
 
@@ -63,7 +63,7 @@ This shows the effect of four Contributions (indicated by blue ovals on the left
 
 One nuance which should be pointed out is that in FIGURE 25 Contributions are shown as if they are literally a set of deltas, i.e. exactly the changes which occur to the record. Thus, the first Contribution is the set {CI[~w~], C[~a1~], C[~c1~], C[~d1~]} and so on. Whether this is literally true depends on the construction of the persistence solution. In some situations, some CIs may be updated by the user viewing the current list and entering just the changes - the situation shown in FIGURE 25; in others, the system may provide the current state of these CIs for editing by the user, and submit the updated versions, as shown in FIGURE 26. Some applications may do both, depending on which CI is being updated. The internal versioning implementation may or may not generate deltas as a way of efficient storage.
 
-p=. !fig26.png!
+p=. !26.png!
 
 p=. *FIGURE 26* Contributions to the Repository (non-delta form)
 
@@ -78,7 +78,7 @@ FIGURE 27 shows an abstract model of a change-controlled repository, which consi
 
 The actual type of links between the controlled repository and the other entities might vary - in some cases it might be association, in others aggregation; cardinalities might also vary. FIGURE 27 there fore provides a guide to the definition of actual controlled repositories, such as an EHR, rather than a formal specification for them.
 
-p=. !fig27.png!
+p=. !27.png!
 
 p=. *FIGURE 27* Abstract Model of Change-controlled Repository
 

@@ -18,6 +18,10 @@ While identification of EHRs is not completely definable by openEHR, the identif
 
 In the openEHR RM, identifiers and references are implemented with two groups of classes defined in the support.identification package. Identifiers of various kinds are defined by descendant classes of OBJECT_ID, while references are defined by the classes inheriting from OBJECT_REF. The distinction is illustrated in FIGURE 28. Here we see two container objects with OBJECT_IDs (since OBJECT_ID is an abstract type, the actual type will be another XXX_ID class), and various OBJECT_REFs as references.
 
+p=. !28.png!
+
+p=. *==FIGURE== 28*  XXX_IDs and XXX_REFs
+
 h3. 9.2.2 Levels of Identification
 
 In order to make data items locatable from the outside, identification is supported at 3 levels in openEHR, as follows:
@@ -26,9 +30,6 @@ In order to make data items locatable from the outside, identification is suppor
 * top-level content structures: content structures such as COMPOSITION, EHR_STATUS, EHR_ACCESS, PARTY etc. are uniquely identified by the association of the identifier of their containing VERSIONED_OBJECT and the identifier of their containing VERSION within the container;
 * internal nodes: nodes within top-level structures are identified using paths.
 
-p=. !28.png!
-
-p=. *==FIGURE== 28*  XXX_IDs and XXX_REFs
 
 Three kinds of identification are used respectively. For version containers, meaningless unique identifiers (“uids”) are used. In most cases, the type HIER_OBJECT_ID will be used, which contains an instance of a subtype of the UID class, i.e. either an ISO OID or a IETF UUID (see http://www.ietf.org/rfc/rfc4122.txt; also known as a GUID). In general UUIDs are favoured since they require no central assignment and can be generated on the spot. A versioned container can be then referenced with an OBJECT_REF containing its identifier.
 

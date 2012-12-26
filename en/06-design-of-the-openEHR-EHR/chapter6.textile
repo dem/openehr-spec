@@ -4,7 +4,7 @@ h2. 6.1 The EHR System
 
 In informational terms, a minimal EHR system based on openEHR consists of an EHR repository, an archetype repository, terminology (if available), and demographic/identity information, as shown in FIGURE 13.
 
-p=. !fig13.png!
+p=. !13.png!
 
 p=. *FIGURE  13*  Minimal openEHR EHR System
 
@@ -20,14 +20,13 @@ As has been shown, the openEHR information models define information at varying 
 * +Party+ - various subtypes including Actor, Role, etc. representing a demographic entity with identity and contact details (see type @PARTY@ and subtypes in Demographic IM);
 * +EHR Extract+ - the transmission unit between EHR systems, containing a serialisation of EHR, demographic and other content (see type @EHR_EXTRACT@ in EHR Extract IM).
 
-All persistent openEHR EHR, demographic and related content is found within top-level information
-structures. Most of these are visible in the following figures.
+All persistent openEHR EHR, demographic and related content is found within top-level information structures. Most of these are visible in the following figures.
 
 h2. 6.3 The EHR
 
 The openEHR EHR is structured according to a relatively simple model. A central EHR object identified by an EHR id specifies references to a number of types of structured, versioned information, plus a list of Contribution objects that act as audits for changes made to the EHR. The high-level structure of the openEHR EHR is shown in FIGURE 14.
 
-p=. !fig14.png!
+p=. !14.png!
 
 p=. *FIGURE  14*  High-level Structure of the openEHR EHR
 
@@ -40,9 +39,10 @@ In this figure, the parts of the EHR are as follows:
 * __Contributions__: the change-set records for every change made to the health record; each Contribution references a set of one or more Versions of any of the versioned items in the record that were committed or attested together by a user to an EHR system.
 
 The internal structure of the Composition along with the Directory object correspond closely to the levels in internationally agreed models of health information such as the CEN EN13606 and HL7 CDA standards.
+
 The logical structure of a typical Composition is shown in more detail in FIGURE 15. In this figure, the various hierarchical levels from Composition to the data types are shown in a typical arrangement. The 21 data types provide for all types of data needed for clinical and administrative recording.
 
-p=. !fig15.png!
+p=. !15.png!
 
 p=. *FIGURE  15*  Elements of an openEHR Composition
 
@@ -53,13 +53,13 @@ All clinical information created in the openEHR EHR is ultimately expressed in �
  
 The  openEHR  ENTRY classes are shown in  FIGURE 16. There are five concrete subtypes: @ADMIN_ENTRY@, @OBSERVATION@, @EVALUATION@, @INSTRUCTION@ and @ACTION@, of which the latter four are kinds of @CARE_ENTRY@.
 
-p=. !fig16.png!
+p=. !16.png!
 
 p=. *FIGURE  16*  The openEHR Entry model (in EHR IM)
 
 The choice of these types is based on the clinical problem-solving process shown in FIGURE 17.
 
-p=. !fig17.png!
+p=. !17.png!
 
 p=. *FIGURE  17*  Relationship of information types to the investigation process
 
@@ -70,7 +70,7 @@ This process model is a synthesis of Lawrence Weed’s “problem-oriented” me
 *Ontology of Entry Types*
 In the clinical world practitioners do not think in terms of only five kinds of data corresponding to the subtypes of Entry described above. There are many subtypes of each of these types, of which some are shown in the ontology of FIGURE 18.
 
-p=. !fig18.png!
+p=. !18.png!
 
 p=. *FIGURE  18*  Ontology of Recorded Information
 
@@ -99,7 +99,7 @@ The  openEHR approach to these challenges is to use the Entry type  @INSTRUCTION
 
 Coupled with the comprehensive versioning capabilities of openEHR, the Instruction/Action design allows clinical users of the record to define and manage interventions for the patient in a distributed environment.
 
-p=. !fig19.png!
+p=. !19.png!
 
 p=. *FIGURE  19*  openEHR standard Instruction State Machine
 
@@ -107,7 +107,7 @@ h2. 6.6 Time in the EHR
 
 Time is well-known as a challenging modelling problem in health information. In openEHR, times that are a by-product of the investigation process (e.g. time of sampling or collection; time of measurement, time of a healthcare business event, time of data committal) described above are concretely modelled, while other times specific to particular content (e.g. date of onset, date of resolution) are modelled using archetyping of generic data attributes. The following figure shows a typical relationship of times with respect to the observation process, and the corresponding  attributes within the openEHR reference model. Note that under different scenarios, such as GP consultation, radiology reporting and others, the temporal relationships may be quite different than those shown in the figure. Time is described in detail in the EHR Information Model document.
 
-p=. !fig20.png!
+p=. !20.png!
 
 p=. *FIGURE 20* Time in the EHR
 
