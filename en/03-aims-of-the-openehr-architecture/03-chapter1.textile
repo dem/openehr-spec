@@ -79,7 +79,7 @@ In this form, the openEHR services are added to the existing IT infrastructure t
 
 p=. !3.png!
 
-p=. FIGURE 3 Community Shared-care Context
+p=. *FIGURE 3* Community Shared-care Context
 
 * shared-care community or regional health service EHRs;
 * summary EHRs at a national, state, province or similar level;

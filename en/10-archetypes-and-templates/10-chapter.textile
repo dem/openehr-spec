@@ -88,7 +88,7 @@ The deployment of archetypes, templates, and screen forms is shown in FIGURE 32.
 
 !32.png!
 
-h3 10.6.3 Validation during Data Capture
+h3. 10.6.3 Validation during Data Capture
 
 Validation is the primary runtime function of archetypes - it is how “archetype-based” data are created in the first place, and modified thereafter. Archetype-based validation can be used in a GUI application or in a data import service. Although the source of the data (keystrokes or received XML or other messages) is different, the logical process is the same: create archetype-based openEHR data according to the input stream.
 
@@ -100,12 +100,11 @@ The actual process of data creation and committal is illustrated in FIGURE 33. T
 
 If data are later modified, they are brought into the kernel along with the relevant template and archetypes, and the embedded node identifiers allow the kernel to continue to perform appropriate checking of changes to the data.
 
-h3 10.6.4 Querying
+h3. 10.6.4 Querying
 
 The second major computational function of archetypes is to support querying. As described above, and in the next section, the paths extracted from archetypes are the basis for queries into the data. Queries are defined in AQL (Archetype Query Language), which is essentially a synthesis of SQL and XPath style paths extracted from archetypes. The following is an example AQL query meaning “Get the BMI values which are more than 30 kg/m2 for a specific patient”:
 
-bc.
-SELECT o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value
+bc. SELECT o/[at0000]/data[at0001]/events[at0002]/data[at0003]/item[0004]/value
 FROM EHR [uid=@ehrUid]
 CONTAINS COMPOSITION c [openEHR-EHR-COMPOSITION.report.v1]
 CONTAINS OBSERVATION o[openEHR-EHR-OBSERVATION.body_mass_index.v1]

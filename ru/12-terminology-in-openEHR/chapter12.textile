@@ -43,13 +43,90 @@ h2. 12.3 Архетип "Внутренняя терминология"
 
 fn1.  Апгар является основной мерой здоровья новорожденных, проводится 2 или 3 раза после родов и представляется в виде шкалы от 0 до 10 баллов.
 
-p=. !34.png!
+bc. OBSERVATION[at0000] matches {           -- Apgar score
+  data matches {
+    HISTORY[at0002] matches {             -- history
+      events cardinality matches {1..*; unordered} matches {
+        POINT_EVENT[at0003] occurrences matches {0..1} matches {-- 1 minute
+          offset matches {|PT1M|}
+          data matches {
+            ITEM_LIST[at0001] matches {-- structure
+              items cardinality matches {0..1; ordered} matches {
+                ELEMENT[at0005] occurrences matches {0..1} matches {-- Heart
+                  value matches {
+                    ORDINAL matches {
+                      value matches {
+                        0|[local::at0006], -- No heart beat
+                        1|[local::at0007], -- Less than 100 bpm
+                        2|[local::at0008] -- Greater than 100 bpm
+                      }
+                    }
+                  }
+                }
+                ...
+              }
+            }
+          }
+        }
+        POINT_EVENT[at0026] occurrences matches {0..1} matches {-- 2 minute
+          offset matches {|PT2M|}
+          data matches {
+            use_node ITEM_LIST /data[at0002]/events[at0003]/data[at0001]
+          }
+        }
+        ...
 
 p=. *Рисунок 34* определение архетипа Апгар (выдержка)
 
 Второй способ использования местных кодов - качестве значений. На рисунке 34, @ELEMENT@ узла, определяемый кодом [at0005], имеет тип @ORDINAL@, в качестве ограничения своих значений. Этот тип может принимать значения 0, 1 или 2. Каждое из этих значений кодируется при помощи кодов [at0006], [at0007] и [at0008]. Выдержка из онтологии архетипа, отображающая эти термины, показана на рисунке 35.
 
-p=. !35.png!
+bc. ontology
+    primary_language = <"en">
+    languages_available = <"en", "en-us">
+    terminologies_available = <"LNC205", ...>
+    term_definitions = <
+      ["en"] = <
+        items = <
+          ["at0000"] = <
+            description = <"Clinical score derived from assessment of
+              breathing, colour, muscle tone, heart rate and reflex
+              response usually taken at 1, 5 and 10 minutes after birth">
+            text = <"Apgar score">
+          >
+          ["at0003"] = <
+            description = <"Apgar score at one minute">
+            text = <"1 minute">
+          >
+          ["at0006"] = <
+            description = <"No heart beat is present (palpation at base of
+              umbilical cord)">
+            text = <"No heart beat">
+          >
+          ["at0007"] = <
+            description = <"Heart rate of less than 100 beats per minute">
+            text = <"Less than 100 beats per minute">
+          >
+          ["at0008"] = <
+            description = <"Heart rate of greater than or equal to 100
+              beats per minute">
+            text = <"Greater than 100 beats per minute">
+          >
+          ["at0026"] = <
+            description = <"Apgar score 2 minutes after birth">
+            text = <"2 minute">
+          >
+        >
+      >
+    >
+    term_bindings = <
+      ["LNC205"] = <
+        items = <
+          ["/data[at0002]/events[at0003]/data/items[at0025]"] =
+              <[LNC205::9272-6]> -- 1 minute total
+          ["/data[at0002]/events[at0026]/data/items[at0025]"] =
+              <[LNC205::9271-8]> -- 2 minute total
+        >
+      >
 
 p=. *Рисунок 35* Раздел "онтология" архетипа Апгар (выдержка)
 
