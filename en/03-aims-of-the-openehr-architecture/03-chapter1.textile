@@ -13,7 +13,7 @@ p=. *FIGURE 2* Structure of Requirements met by openEHR
 
 In this figure, each bubble represents a set of requirements, being a superset of all requirements of bubbles contained within it. Requirements for a generic record of care for any kind of subject in a local deployment are represented by the top left bubble. The subsequent addition of requirements corresponding to living subjects and then human subjects is represented by the bubbles down the left side of the diagram. The requirements represented by the largest bubble on the left hand side correspond to "local health records for human care", such as radiology records, hospital EPRs and so on. Additional sets of requirements represented by wider bubbles going across the diagram correspond to extending the scope of the content of the care record first to a whole subject (resulting in a patient-centric, longitudinal health record) and then to populations or cohorts of subjects, as done in population health and research. From the (human) healthcare point of view, the important requirements groups extend all the way to the bottom row of the diagram.
 
-Going down the diagram, requirements corresponding to increasing specificity of subject of care (from "any" to "human") are mostly implemented in openEHR by the use of archetypes. Going across the diagram, the requirements corresponding to increasing scope of record content (from episodic to population) are mainly expressed in different deployments, generally going from standalone to a shared interoperable form. One of the key aspirations for EHRs today is the "integrated care record" sought by many health authorities today [1], which provides an informational framework for integrated shared care.
+Going down the diagram, requirements corresponding to increasing specificity of subject of care (from "any" to "human") are mostly implemented in openEHR by the use of archetypes. Going across the diagram, the requirements corresponding to increasing scope of record content (from episodic to population) are mainly expressed in different deployments, generally going from standalone to a shared interoperable form. One of the key aspirations for EHRs today is the "integrated care record" sought by many health authorities today[1], which provides an informational framework for integrated shared care.
 
 As a result of the approach taken by openEHR, components and applications built to satisfy the requirements of an integrated shared care record can also be deployed as (for example) an episodic radiology record system.
 
@@ -65,11 +65,7 @@ The Integrated Care EHR holds great promise: to generalise and make widely avail
 * Increasing targeted health initiatives known to be effective, based on patient criteria; and
 * Reduced hospitalisations and readmissions.
 
-One comprehensive statement of EHR requirements covering many of the above is the ISO Technical Report 18308[1] for which an openEHR profile has been created[2]. The requirements summarised above are described in more detail in the openEHR EHR Information Model document.
-
-fn1. see "http://www.openehr.org/downloads/ISOEHRRequirements.zip":http://www.openehr.org/downloads/ISOEHRRequirements.zip
-
-fn2. see "http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf":http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf
+One comprehensive statement of EHR requirements covering many of the above is the ISO Technical Report 18308[2] for which an openEHR profile has been created[3]. The requirements summarised above are described in more detail in the openEHR EHR Information Model document.
 
 h2. 3.3 Deployment Environments
 
@@ -88,3 +84,9 @@ p=. *FIGURE 3* Community Shared-care Context
 * consolidated and summary EHRs in federation environments;
 * legacy data purification and validation gateways;
 * web-based secure EHR systems for mobile patients.
+
+fn1. The Integrated Care EHR is described in ISO/TR 20514 (2005)
+
+fn2. see "http://www.openehr.org/downloads/ISOEHRRequirements.zip":http://www.openehr.org/downloads/ISOEHRRequirements.zip
+
+fn3. see "http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf":http://svn.openehr.org/specification/TRUNK/publishing/requirements/iso18308_conformance.pdf

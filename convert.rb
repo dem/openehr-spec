@@ -20,7 +20,7 @@ title_ru = doc_ru.xpath('html/head/title')[0].text
 body_en = doc_en.xpath('html/body')[0]
 body_ru = doc_ru.xpath('html/body')[0]
 
-file_en_ru.write('<!doctype html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>title</title><style>img{width:70%;} table{width:100%; border-collapse:collapse; border: 1px solid #d3d3d3;} td{width:50%; word-wrap:break-word; padding:10px;border: 1px solid #d3d3d3;} p,a,h1,h2,h3,h4,h5,h6 {word-wrap:break-word;font-family:Tahoma sans-serif;}</style></head><body>')
+file_en_ru.write('<!doctype html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>title</title><style>img{width:70%;} table{width:100%; border-collapse:collapse; border: 1px solid #d3d3d3;} td{width:50%; vertical-align:top; word-wrap:break-word; padding:0 10px 0 10px;border-right: 1px solid #d3d3d3;} p,a,h1,h2,h3,h4,h5,h6 {word-wrap:break-word;font-family:Tahoma sans-serif;}</style></head><body>')
 
 file_en_ru.write('<table style="width:100%;">')
 

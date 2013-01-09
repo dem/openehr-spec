@@ -25,12 +25,12 @@ The latest version of this document can be found at "http://svn.openehr.org/spec
 
 New versions are announced on "openehr-announce@openehr.org":mailto:openehr-announce@openehr.org
 
-Blue text indicates sections under active development.
+%{color:blue}Blue text% indicates sections under active development.
 
 h2. 1.3 Peer review
 
 Areas where more analysis or explanation is required are indicated with "to be continued" paragraphs like the following:
 
-To Be Continued: more work required
+%{color:fuchsia}To Be Continued: more work required%
 
 Reviewers are encouraged to comment on and/or advise on these paragraphs as well as the main content. Please send requests for information to "info@openEHR.org":mailto:info@openEHR.org. Feedback should preferably be provided on the mailing list "openehr-technical@openehr.org":mailto:openehr-technical@openehr.org, or by private email.

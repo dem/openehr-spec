@@ -14,7 +14,7 @@ h2. 6.2 Top-level Information Structures
 
 As has been shown, the openEHR information models define information at varying levels of granularity. Fine-grained structures defined in the Support and Data types are used in the Data Structures and Common models; these are used in turn in the EHR, EHR Extract, Demographic and other “toplevel” models. These latter models define the “top-level structures” of openEHR, i.e. content structures that can sensibly stand alone, and may be considered the equivalent of separate documents in a document-oriented system. In openEHR information systems, it is generally the top-level structures that are of direct interest to users. The major top-level structures include the following:
 * +Composition+ - the committal unit of the EHR (see type @COMPOSITION@ in EHR IM);
-* +EHR Acces+ - the EHR-wide access control object (see type @EHR_ACCESS@ in EHR IM);
+* +EHR AccesS+ - the EHR-wide access control object (see type @EHR_ACCESS@ in EHR IM);
 * +EHR Status+ - the status summary of the EHR (see type @EHR_STATUS@ in EHR IM);
 * +Folder hierarchy+ - act as directory structures in EHR, Demographic services (see type @FOLDER@ in Common IM);
 * +Party+ - various subtypes including Actor, Role, etc. representing a demographic entity with identity and contact details (see type @PARTY@ and subtypes in Demographic IM);
@@ -65,7 +65,7 @@ p=. *FIGURE  17*  Relationship of information types to the investigation process
 
 This figure shows the cycle of information creation due to an iterative, problem solving process typical not just of clinical medicine but of science in general. The “system” as a whole is made up of two parts: the “patient system” and the “clinical investigator system”. The latter consists of health carers, and may include the patient (at points in time when the patient performs observational or therapeutic activities), and is responsible for understanding the state of the patient system and delivering care to it. A problem is solved by making observations, forming opinions (hypotheses), and prescribing actions (instructions) for next steps, which may be further investigation, or may be interventions designed to resolve the problem, and finally, executing the instructions (actions).
 
-This process model is a synthesis of Lawrence Weed’s “problem-oriented” method of EHR recording, and later related efforts, including the model of Rector, Nowlan & Kay [ 7 ], and the “hypothetico-deductive” model of reasoning (see e.g. [ 3 ]). However hypothesis-making and testing is not the only successful process used by clinical professionals - evidence shows that many (particularly those older and more experienced) rely on pattern recognition and direct retrieval of plans used previously with similar patients or prototype models. The investigator process model used in openEHR is compatible with both cognitive approaches, since it does not say how opinions are formed, nor imply any specific number or size of iterations to bring the process to a conclusion, nor even require all steps to be present while iterating (e.g. GPs often prescribe without making a firm diagnosis). Consequently, the openEHR Entry model does not impose a process model, it only provides the possible types of information that might occur.
+This process model is a synthesis of Lawrence Weed’s “problem-oriented” method of EHR recording, and later related efforts, including the model of Rector, Nowlan & Kay ==[7]==, and the “hypothetico-deductive” model of reasoning (see e.g. ==[3]==). However hypothesis-making and testing is not the only successful process used by clinical professionals - evidence shows that many (particularly those older and more experienced) rely on pattern recognition and direct retrieval of plans used previously with similar patients or prototype models. The investigator process model used in openEHR is compatible with both cognitive approaches, since it does not say how opinions are formed, nor imply any specific number or size of iterations to bring the process to a conclusion, nor even require all steps to be present while iterating (e.g. GPs often prescribe without making a firm diagnosis). Consequently, the openEHR Entry model does not impose a process model, it only provides the possible types of information that might occur.
 
 *Ontology of Entry Types*
 In the clinical world practitioners do not think in terms of only five kinds of data corresponding to the subtypes of Entry described above. There are many subtypes of each of these types, of which some are shown in the ontology of FIGURE 18.
@@ -101,7 +101,7 @@ Coupled with the comprehensive versioning capabilities of openEHR, the Instructi
 
 p=. !19.png!
 
-p=. *FIGURE  19*  openEHR standard Instruction State Machine
+p=. *FIGURE 19* openEHR standard Instruction State Machine
 
 h2. 6.6 Time in the EHR
 

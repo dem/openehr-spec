@@ -2,8 +2,7 @@ h1. 5 openEHR Package Structure
 
 h2. 5.1 Overview
 
-FIGURE 8 illustrates the package structure of the openEHR formal specifications. Three major packages are defined: rm, am and sm. All packages defining detailed models appear inside one of these outer packages, which may also be thought of as namespaces. They are conceptually defined within the org.openehr namespace, which can be represented in UML as further packages. In some implementation technologies (e.g. Java), the org.openehr namespace may actually be used within program texts.
-
+FIGURE 8 illustrates the package structure of the openEHR formal specifications. Three major packages are defined: @rm@, @am@ and @sm@. All packages defining detailed models appear inside one of these outer packages, which may also be thought of as namespaces. They are conceptually defined within the org.openehr namespace, which can be represented in UML as further packages. In some implementation technologies (e.g. Java), the @org.openehr@ namespace may actually be used within program texts.
 
 p=. !8.png!
 
@@ -17,69 +16,56 @@ p=. *==FIGURE 9==* openEHR Package Structure
 
 h2. 5.2 Reference Model (RM)
 
-Each package defines a local context for definition of classes. FIGURE 10 illustrates the RM package structure. An informal division into “domain”, “patterns” and “core” is shown. The packages in the latter group are generic, and are used by all openEHR models, in all the outer packages. Together, they provide identification, access to knowledge resources, data types and structures, versioning semantics, and support for archetyping. The packages in the former group define the semantics of enterprise level health information types, including the EHR and demographics.\
+Each package defines a local context for definition of classes. FIGURE 10 illustrates the RM package structure. An informal division into “domain”, “patterns” and “core” is shown. The packages in the latter group are generic, and are used by all openEHR models, in all the outer packages. Together, they provide identification, access to knowledge resources, data types and structures, versioning semantics, and support for archetyping. The packages in the former group define the semantics of enterprise level health information types, including the EHR and demographics.
 
-Each outer package in FIGURE 10 corresponds to one openEHR specification document[1], documenting an “information model” (IM). The package structure will normally be replicated in all ITS expressions, e.g. XML schema, programming languages like Java, C# and Eiffel, and interoperability definitions like WSDL, IDL and .Net.
+Each outer package in FIGURE 10 corresponds to one openEHR specification document[5], documenting an “information model” (IM). The package structure will normally be replicated in all ITS expressions, e.g. XML schema, programming languages like Java, C# and Eiffel, and interoperability definitions like WSDL, IDL and .Net.
 
 h3. 5.2.1 Package Overview
 
 The following sub-sections provide a brief overview of the RM packages.
 
 *Support Information Model*
-This package describes the most basic concepts, required by all other packages, and is comprised of
-the Definitions, Identification, Terminology and Measurement packages. The semantics defined in
-these packages allow all other models to use identifiers and to have access to knowledge services like
-terminology and other reference data. The support package includes the special package
-assumed_types, describing what basic types are assumed by openEHR in external type systems;
-this package is a guide for integrating openEHR models proper into the type systems of implementa-
-tion technologies.
+This package describes the most basic concepts, required by all other packages, and is comprised of the Definitions, Identification, Terminology and Measurement packages. The semantics defined in these packages allow all other models to use identifiers and to have access to knowledge services like terminology and other reference data. The support package includes the special package assumed_types, describing what basic types are assumed by openEHR in external type systems; this package is a guide for integrating openEHR models proper into the type systems of implementation technologies.
 
 *Data Types Information Model*
-A set of clearly defined data types underlies all other models, and provides a number of general and
-clinically specific types required for all kinds of health information. The following categories of data
-types are defined in the data types reference model.
+A set of clearly defined data types underlies all other models, and provides a number of general and clinically specific types required for all kinds of health information. The following categories of data types are defined in the data types reference model.
 
-* Text: plain text, coded text, paragraphs.
-* Quantities: any ordered type including ordinal values (used for representing symbolic ordered values such as “+”, “++”, “+++”), measured quantities with values and units, and so on.
-* Date/times: date, time, date-time types, and partial date/time types.
-* Encapsulated data: multimedia, parsable content.
-* Basic types: boolean, state variable.
+* __Text__: plain text, coded text, paragraphs.
+* __Quantities__: any ordered type including ordinal values (used for representing symbolic ordered values such as “+”, “++”, “+++”), measured quantities with values and units, and so on.
+* __Date/times__: date, time, date-time types, and partial date/time types.
+* __Encapsulated data__: multimedia, parsable content.
+* __Basic types__: boolean, state variable.
 
 *Data Structures Information Model*
 In most openEHR information models, generic data structures are used for expressing content whose particular structure will be defined by archetypes. The generic structures are as follows.
 
-* Single: single items, used to contain any single value, such as a height or weight.
-* List: linear lists of named items, such as many pathology test results.
-* Table: tabular data, including unlimited and limited length tables with named and ordered columns, and potentially named rows.
-* Tree: tree-shaped data, which may be conceptually a list of lists, or other deep structure.
-* History: time-series structures, where each time-point can be an entire data structure of any complexity, described by one of the above structure types. Point and interval samples are supported.
+* __Single__: single items, used to contain any single value, such as a height or weight.
+* __List__: linear lists of named items, such as many pathology test results.
+* __Table__: tabular data, including unlimited and limited length tables with named and ordered columns, and potentially named rows.
+* __Tree__: tree-shaped data, which may be conceptually a list of lists, or other deep structure.
+* __History__: time-series structures, where each time-point can be an entire data structure of any complexity, described by one of the above structure types. Point and interval samples are supported.
 
 p=. !10.png!
 
 p=. *==FIGURE==* 10 Structure of org.openehr.rm package
 
 *Common Information Model*
-Several concepts recur in higher level packages. The classes LOCATABLE and ARCHETYPED provide
-the link between information and archetype models. The classes ATTESTATION and PARTICIPA-
-TION are generic domain concepts that appear in various reference models. The change_control
-package defines a formal model of change management and versioning which applies to any service
-that needs to be able to supply previous states of its information, in particular the demographic and
-EHR services. The key semantics of versioning in openEHR are described in section 8 on page 42.
+Several concepts recur in higher level packages. The classes @LOCATABLE@ and @ARCHETYPED@ provide the link between information and archetype models. The classes @ATTESTATION@ and @PARTICIPATION@ are generic domain concepts that appear in various reference models. The @change_control@ package defines a formal model of change management and versioning which applies to any service that needs to be able to supply previous states of its information, in particular the demographic and EHR services. The key semantics of versioning in openEHR are described in section 8 on page 42.
 
 *Security Information Model*
 The Security Information Model defines the semantics of access control and privacy setting for information in the EHR.
 
 *EHR Information Model*
-The EHR IM defines the containment and context semantics of the concepts EHR, COMPOSITION, SECTION, and ENTRY. These classes are the major coarse-grained components of the EHR, and correspond directly to the classes of the same names in CEN EN13606:2005 and fairly closely to the “levels” of the same names in the HL7 Clinical Document Architecture (CDA) release 2.0.
+The EHR IM defines the containment and context semantics of the concepts @EHR@, @COMPOSITION@, @SECTION@, and @ENTRY@. These classes are the major coarse-grained components of the EHR, and correspond directly to the classes of the same names in CEN EN13606:2005 and fairly closely to the “levels” of the same names in the HL7 Clinical Document Architecture (CDA) release 2.0.
 
 *EHR Extract Information Model*
-The EHR Extract IM defines how an EHR extract is built from COMPOSITIONs, demographic, and access control information from the EHR. A number of Extract variations are supported, including “full openEHR”, a simplified form for integration with CEN EN13606, and an openEHR/openEHR synchronisation Extract.
+The EHR Extract IM defines how an EHR extract is built from @COMPOSITIONs@, demographic, and access control information from the EHR. A number of Extract variations are supported, including “full openEHR”, a simplified form for integration with CEN EN13606, and an openEHR/openEHR synchronisation Extract.
 
 *Integration Information Model*
-The Integration model defines the class GENERIC_ENTRY, a subtype of ENTRY used to represent freeform legacy or external data as a tree. This Entry type has its own archetypes, known as “integration archetypes”, which can be used in concert with clinical archetypes as the basis for a tool-based data integration system. See section 14 on page 73 for more details.
+The Integration model defines the class @GENERIC_ENTRY@, a subtype of @ENTRY@ used to represent freeform legacy or external data as a tree. This Entry type has its own archetypes, known as “integration archetypes”, which can be used in concert with clinical archetypes as the basis for a tool-based data integration system. See section 14 on page 73 for more details.
 
 *Demographics Information Model*
-The demographic model defines generic concepts of PARTY, ROLE and related details such as contact addresses. The archetype model defines the semantics of constraint on PARTYs, allowing archetypes for any type of person, organisation, role and role relationship to be described. This approach provides a flexible way of including the arbitrary demographic attributes allowed in the OMG HDTF PIDS standard.
+The demographic model defines generic concepts of @PARTY@, @ROLE@ and related details such as contact addresses. The archetype model defines the semantics of constraint on @PARTYs@, allowing archetypes for any type of person, organisation, role and role relationship to be described. This approach provides a flexible way of including the arbitrary demographic attributes allowed in the OMG HDTF PIDS standard.
 
 *Workflow Information Model (future)*
 Workflow is the dynamic side of clinical care, and consists of models to describe the semantics of processes, such as recalls, as well as any care process resulting from execution of guidelines.
@@ -108,14 +94,13 @@ Part of the model defines the semantics of server-side querying, i.e. queries wh
 The archetype service model defines the interface to online repositories of archetypes, and can be used both by GUI applications designed for human browsing as well as access by other software services such as the EHR.
 
 *Terminology Interface Model*
-The terminology interface service provides the means for all other services to access any terminology available in the health information environment, including basic classification vocabularies such as ICDx and ICPC, as well as more advanced ontology-based terminologies. Following the concept of division of responsibilities in a system-of-systems context, the terminology interface abstracts the different underlying architectures of each terminology, allowing other services in the environment to access terms in a standard way. The terminology service is thus the gateway to all ontology- and terminology-based knowledge services in the environment, which along with services for accessing guidelines, drug data and other “reference data” enables inferencing and decision support to be car-
-ried out in the environment.
+The terminology interface service provides the means for all other services to access any terminology available in the health information environment, including basic classification vocabularies such as ICDx and ICPC, as well as more advanced ontology-based terminologies. Following the concept of division of responsibilities in a system-of-systems context, the terminology interface abstracts the different underlying architectures of each terminology, allowing other services in the environment to access terms in a standard way. The terminology service is thus the gateway to all ontology- and terminology-based knowledge services in the environment, which along with services for accessing guidelines, drug data and other “reference data” enables inferencing and decision support to be carried out in the environment.
 
 p=. !12.png!
 
 p=. *==FIGURE==* 12 Structure of the org.openehr.sm package
 
-# with the exception of the EHR and Composition packages, which are both described in the EHR Reference Model document.
+fn5. with the exception of the EHR and Composition packages, which are both described in the EHR Reference Model document.
 
 
 

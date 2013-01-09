@@ -4,7 +4,7 @@ The openEHR approach to modelling information, services and domain knowledge is 
 
 h2. 4.1 Ontological Separation
 
-The most basic kind of distinction in any system of models is ontological, i.e. in the levels of abstraction of description of the real world. All models carry some kind of semantic content, but not all semantics are the same, or even of the same category. For example, some part of the SNOMED-CT[1] terminology describes types of bacterial infection, sites in the body, and symptoms. An __information__ model might specify a logical type Quantity. A __content__ model might define the model of information collected in an ante-natal examination by a physician. These types of "information" are qualitatively different, and need to be developed and maintained separately within the overall model eco-system. FIGURE 4 illustrates these distinctions, and indicates what parts are built directly into software and databases.
+The most basic kind of distinction in any system of models is ontological, i.e. in the levels of abstraction of description of the real world. All models carry some kind of semantic content, but not all semantics are the same, or even of the same category. For example, some part of the SNOMED-CT[4] terminology describes types of bacterial infection, sites in the body, and symptoms. An __information__ model might specify a logical type Quantity. A __content__ model might define the model of information collected in an ante-natal examination by a physician. These types of "information" are qualitatively different, and need to be developed and maintained separately within the overall model eco-system. FIGURE 4 illustrates these distinctions, and indicates what parts are built directly into software and databases.
 
 p=. !4.png!
 
@@ -17,7 +17,7 @@ A secondary ontological separation within the information side is shown between 
 By clearly separating the three categories - information models, domain content models, and terminologies - the openEHR architecture enables each to have a well-defined, limited scope and clear interfaces. This limits the dependence of each on the other, leading to more maintainable and adaptable systems.
 
 *Two-level Modelling and Archetypes*
-One of the key paradigms on which openEHR is based is known as "two-level" modelling, described in [2]. Under the two-level approach, a stable reference information model constitutes the first level of modelling, while formal definitions of clinical content in the form of archetypes and templates constitute the second. __Only the first level__ (the Reference Model) __is implemented in software__, significantly reducing the dependency of deployed systems and data on variable content definitions. The only other parts of the model universe implemented in software are highly stable languages/models of representation (shown at the bottom of FIGURE 4). As a consequence, systems have the possibility of being far smaller and more maintainable than single-level systems. They are also inherently self-adapting, since they are built to consume archetypes and templates as they are developed into the future.
+One of the key paradigms on which openEHR is based is known as "two-level" modelling, described in ==[2]==. Under the two-level approach, a stable reference information model constitutes the first level of modelling, while formal definitions of clinical content in the form of archetypes and templates constitute the second. __Only the first level__ (the Reference Model) __is implemented in software__, significantly reducing the dependency of deployed systems and data on variable content definitions. The only other parts of the model universe implemented in software are highly stable languages/models of representation (shown at the bottom of FIGURE 4). As a consequence, systems have the possibility of being far smaller and more maintainable than single-level systems. They are also inherently self-adapting, since they are built to consume archetypes and templates as they are developed into the future.
 
 p=. !5.png!
 
@@ -39,7 +39,7 @@ Clearly applications cannot always be totally generic (although many data captur
 
 h2. 4.2 Separation of Responsibilities
 
-A second key design paradigm used in openEHR is that of separation of responsibilities within the computing environment. Complex domains are only tractable if the functionality is first partitioned into broad areas of interest, i.e. into a "system of systems" [6]. This principle has been understood in computer science for a long time under the rubrics "low coupling", "encapsulation" and "componentisation", and has resulted in highly successful frameworks and standards, including the OMG's CORBA specifications and the explosion of object-oriented languages, libraries and frameworks. Each area of functionality forms a focal point for a set of models formally describing that area, which, taken together usually correspond to a distinct information system or service.
+A second key design paradigm used in openEHR is that of separation of responsibilities within the computing environment. Complex domains are only tractable if the functionality is first partitioned into broad areas of interest, i.e. into a "system of systems" ==[6]==. This principle has been understood in computer science for a long time under the rubrics "low coupling", "encapsulation" and "componentisation", and has resulted in highly successful frameworks and standards, including the OMG's CORBA specifications and the explosion of object-oriented languages, libraries and frameworks. Each area of functionality forms a focal point for a set of models formally describing that area, which, taken together usually correspond to a distinct information system or service.
 
 FIGURE 7 illustrates a notional health information environment containing numerous services, each denoted by a bubble. Typical connections are indicated by lines, and bubbles closer to the centre correspond to services closer to the core needs of clinical care delivery, such as the EHR, terminology, demographics/identification and medical reference data. Of the services shown on the diagram, openEHR currently provides specifications only for the more central ones, including EHR and Demographics.
 
@@ -47,7 +47,7 @@ Since there are standards available for some aspects of many services, such as t
 
 h2. 4.3 Separation of Viewpoints
 
-The third computing paradigm used in openEHR is a natural consequence of the separation of responsibilities, namely the __separation of viewpoints__. When responsibilities are divided up among distinct components, it becomes necessary to define a) the information that each processes, and b) how they will communicate. These two aspects of models constitute the two central "viewpoints" of the ISO RM/ODP model [4], marked in bold in the following:
+The third computing paradigm used in openEHR is a natural consequence of the separation of responsibilities, namely the __separation of viewpoints__. When responsibilities are divided up among distinct components, it becomes necessary to define a) the information that each processes, and b) how they will communicate. These two aspects of models constitute the two central "viewpoints" of the ISO RM/ODP model ==[4]==, marked in bold in the following:
 
 __Enterprise__: concerned with the business activities, i.e. purpose, scope and policies of the specified system.
 
@@ -61,6 +61,10 @@ __Technological__: concerned with the detail of the components from which the di
 
 The openEHR specifications accordingly include an information viewpoint - the openEHR Reference Model - and a computational viewpoint - the openEHR Service Model. The Engineering viewpoint corresponds to the Implementation Technology Specification (ITS) models of openEHR (see Implementation Technology Specifications on page 77), while the Technological viewpoint corresponds to the technologies and components used in an actual deployment. An important aspect of the division into viewpoints is that there is generally not a 1:1 relationship between model specifications in each viewpoint. For example, there might be a concept of "health mandate" (a CEN ENV13940 Continuity of Care concept) in the enterprise viewpoint. In the information viewpoint, this might have become a model containing many classes. In the computational viewpoint, the information structures defined in the information viewpoint are likely to recur in multiple services, and there may or may not be a "health mandate" service. The granularity of services defined in the computational viewpoint corresponds most strongly to divisions of function in an enterprise or region, while the granularity of components in the information view points corresponds to the granularity of mental concepts in the problem space, the latter almost always being more fine-grained.
 
+fn4. See "http://www.snomed.org":http://www.snomed.org
+
 p=. !7.png!
 
 p=. FIGURE 7 Health Information Enviroment
+
+
