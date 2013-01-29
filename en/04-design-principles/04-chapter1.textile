@@ -19,6 +19,10 @@ By clearly separating the three categories - information models, domain content 
 *Two-level Modelling and Archetypes*
 One of the key paradigms on which openEHR is based is known as "two-level" modelling, described in ==[2]==. Under the two-level approach, a stable reference information model constitutes the first level of modelling, while formal definitions of clinical content in the form of archetypes and templates constitute the second. __Only the first level__ (the Reference Model) __is implemented in software__, significantly reducing the dependency of deployed systems and data on variable content definitions. The only other parts of the model universe implemented in software are highly stable languages/models of representation (shown at the bottom of FIGURE 4). As a consequence, systems have the possibility of being far smaller and more maintainable than single-level systems. They are also inherently self-adapting, since they are built to consume archetypes and templates as they are developed into the future.
 
+Archetypes and templates also act as a well-defined semantic gateway to terminologies, classifications and computerised clinical guidelines. The alternative in the past has been to try to make systems function solely with a combination of hard-wired software and terminology. This approach is flawed, since terminologies don’t contain definitions of domain content (e.g. “microbiology result”), but rather facts about the real world (e.g. kinds of microbes and the effects of infection in humans).
+
+The use of archetyping in openEHR engenders new relationships between information and models, as shown in FIGURE 5.
+
 p=. !5.png!
 
 p=. *FIGURE 5* Archetype Meta-architecture
